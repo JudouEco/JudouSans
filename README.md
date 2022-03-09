@@ -1,6 +1,8 @@
 # Judou Sans (句读黑体 / 句讀黑體 / Judou ゴシック / Judou 고딕)
 
-This is JUDOU SANS, a CJK font based on Sarasa Gothic, FiraGO and Source Han Sans.
+[简体中文](./README.zh-hans.md) [繁體中文](./README.zh-hant.md)
+
+This is JUDOU SANS, a CJK font based on Sarasa Gothic, FiraGO, Source Han Sans and ChiuKong Gothic.
 
 ## To build
 
@@ -32,15 +34,19 @@ To build unhinted TTF, type
 npm run build ttfu
 ```
 
+instead, the files would be in `out/ttf-unhinted` directory.
+
 To build unhinted TTC, type
 
 ```bash
 npm run build ttcu
 ```
 
+instead, the files would be in `out/ttc-unhinted` directory.
+
 Please note that you will need *a lot of* memory to create TTCs, due to the huge quantity of subfamily-orthography combinations.
 
 ## What are the names?
 - Orthography dimension
-  - `CN`, `JP`, `KR`: Regional orthography, following [Source Han Sans](https://github.com/adobe-fonts/source-han-sans) notations.
-  - `TC`: ChiuKong Gothic M orthography
+  - `CN`, `JP`, `KR`: Regional orthography.
+  - `TC`: ChiuKong Gothic M orthography.
