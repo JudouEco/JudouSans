@@ -45,6 +45,6 @@ npm run build ttcu
 请注意，由于各个地区的写法组合的数量巨大，您将需要*大量*的内存来构建 TTC 格式字体文件。
 
 ## 名字的含义
-- 按照地区字型划分
+- 按照字型划分
   - `CN`, `JP`, `KR`: 中日韩字型。
   - `TC`: [秋空黑体“现代笔形印刷体字形版本”](https://github.com/ChiuMing-Neko/ChiuKongGothic#%E7%8F%BE%E4%BB%A3%E7%AD%86%E5%BD%A2%E5%8D%B0%E5%88%B7%E9%AB%94%E5%AD%97%E5%BD%A2%E7%89%88%E6%9C%ACmn)。
