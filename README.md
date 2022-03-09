@@ -1,6 +1,6 @@
-# Sarasa Gothic (更纱黑体 / 更紗黑體 / 更紗ゴシック / 사라사고딕)
+# Judou Sans (句读黑体 / 句讀黑體 / Judou ゴシック / Judou 고딕)
 
-This is SARASA GOTHIC, a CJK programming font based on Iosevka and Source Han Sans.
+This is JUDOU SANS, a CJK font based on Sarasa Gothic, FiraGO and Source Han Sans.
 
 ## To build
 
@@ -26,23 +26,21 @@ npm run build ttc
 
 instead, the files would be in `out/ttc` directory.
 
+To build unhinted TTF, type
+
+```bash
+npm run build ttfu
+```
+
+To build unhinted TTC, type
+
+```bash
+npm run build ttcu
+```
+
 Please note that you will need *a lot of* memory to create TTCs, due to the huge quantity of subfamily-orthography combinations.
 
 ## What are the names?
-
-- Style dimension
-  - Latin/Greek/Cyrillic character set being Inter
-    - Quotes (`“”`) are full width —— **Gothic**
-    - Quotes (`“”`) are narrow —— **UI**
-  - Latin/Greek/Cyrillic character set being Iosevka
-    - Em dashes (`——`) are full width —— **Mono**
-    - Em dashes (`——`) are half width —— **Term**
-    - No ligature, Em dashes (`——`) are half width —— **Fixed**
 - Orthography dimension
-  - `CL`: Classical orthography
-  - `SC`, `TC`, `J`, `K`, `HC`: Regional orthography, following [Source Han Sans](https://github.com/adobe-fonts/source-han-sans) notations.
-
-## Mirrors
-
-- TUNA (CN): https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic
-- NJU (CN): https://mirror.nju.edu.cn/github-release/be5invis/Sarasa-Gothic
+  - `CN`, `JP`, `KR`: Regional orthography, following [Source Han Sans](https://github.com/adobe-fonts/source-han-sans) notations.
+  - `TC`: ChiuKong Gothic M orthography

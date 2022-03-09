@@ -12,7 +12,7 @@ exports.isIdeograph = function (c) {
 	);
 };
 
-exports.isWestern = c => c < 0x2000 || (c >= 0x2070 && c <= 0x218f);
+exports.isWestern = c => c < 0x2000 || (c >= 0x2070 && c <= 0x218f) && !(c >= 0x2100 && c <= 0x2109);;
 
 exports.isKorean = c =>
 	(c >= 0x1100 && c <= 0x11ff) ||
