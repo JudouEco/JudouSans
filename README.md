@@ -48,5 +48,7 @@ Please note that you will need *a lot of* memory to create TTCs, due to the huge
 
 ## What are the names?
 - Orthography dimension
-  - `CN`, `JP`, `KR`: Regional orthography.
+  - `CN`: Chinese mainland orthography.
   - `TC`: ChiuKong Gothic M orthography.
+  - `JP`: Japanese orthography.
+  - `KR`: Korean orthography.
