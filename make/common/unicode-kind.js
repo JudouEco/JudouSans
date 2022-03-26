@@ -12,7 +12,7 @@ exports.isIdeograph = function (c) {
 	);
 };
 
-exports.isWestern = c => c < 0x2000 || (c >= 0x2070 && c <= 0x218f) && !(c >= 0x2100 && c <= 0x2109);;
+exports.isWestern = c => c < 0x2000 || (c >= 0x2070 && c <= 0x218f) && !(c >= 0x2100 && c <= 0x2109);
 
 exports.isKorean = c =>
 	(c >= 0x1100 && c <= 0x11ff) ||
@@ -26,7 +26,10 @@ exports.isKorean = c =>
 
 exports.isWS = function (c) {
 	return (
-		((c >= 0x2000 && c <= 0x200f) || (c >= 0x20a0 && c < 0x3000)) &&
+		((c >= 0x2000 && c <= 0x200f) || (c >= 0x20a0 && c < 0x3000)) 
+		|| (c >= 0xff10 && c <= 0xff19)
+		|| (c >= 0xff21 && c <= 0xff3a)
+		|| (c >= 0xff41 && c <= 0xff5a) &&
 		!(c >= 0x2e3a && c <= 0x2e3b)
 	);
 };

@@ -5,7 +5,7 @@
 		"sans": {
 			"isTNUM": false,
 			"isGothic": true,
-			"latinGroup": "FiraGO",
+			"latinGroup": "JudouSansPhonograms",
 			"naming": {
 				"en_US": "Judou Sans",
 				"zh_CN": "句读黑体",
@@ -33,8 +33,8 @@
 		"heavyitalic"
 	],
 	"latinGroups": {
-		"FiraGO": {
-			"isCff": true,
+		"JudouSansPhonograms": {
+			"isCff": false,
 			"styleToFileSuffixMap": {
 				"extralight": "UltraLight",
 				"extralightitalic": "UltraLightItalic",
@@ -151,7 +151,7 @@
 		"JP": ["en_US", "ja_JP", "zh_CN", "zh_HK", "zh_TW", "ko_KR"],
 		"KR": ["en_US", "ko_KR", "zh_CN", "zh_HK", "zh_TW", "ja_JP"]
 	},
-	"copyright": "Copyright 2017-2022 Judou Metamedia. Portions Copyright 2015-2021 Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright © 2014-2019 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. Portions Copyright 2012–2018 for FiraGO, bBox Type GmbH and HERE Europe B.V. All rights reserved, with Reserved Font Name 'Fira'. Portions Copyright 2021 ChiuMing-Neko Based on SourceHanSans 2.004. This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+	"copyright": "Copyright 2017-2022 Judou Metamedia. Portions Copyright 2015-2021 Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright © 2014-2019 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. Portions digitized data copyright 2012–2018 for FiraGO, bBox Type GmbH and HERE Europe B.V. All rights reserved, with Reserved Font Name 'Fira'. Portions digitized data copyright 2012–2018 for Fira Sans The Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH, with Reserved Font Name 'Fira'. Portions Copyright 2021 ChiuMing-Neko Based on SourceHanSans 2.004. Portions Copyright 2019-2022 Google LLC. All Rights Reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1.",
 	"shsSourceMap": {
 		"defaultRegion": "SourceHanSans",
 		"region": {
