@@ -17,7 +17,7 @@ This is **Judou Sans**, a CJK font based on [Sarasa Gothic](https://github.com/b
 - IPA
 - Kana
 - Latin Extended
-- Nushu
+- Nüshu
 - Pan African
 - Polytonic Greek
 - Thai
