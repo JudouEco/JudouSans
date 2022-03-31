@@ -5,7 +5,7 @@
 		"sans": {
 			"isTNUM": false,
 			"isGothic": true,
-			"latinGroup": "JudouSansPhonograms",
+			"latinGroup": "FariGO",
 			"naming": {
 				"en_US": "Judou Sans",
 				"zh_CN": "句读黑体",
@@ -104,10 +104,10 @@
 			"uprightStyleMap": "heavy"
 		}
 	},
-	"subfamilyOrder": ["cn", "tc", "jp", "kr"],
+	"subfamilyOrder": ["cn", "cl", "jp", "kr"],
 	"subfamilies": {
-		"tc": {
-			"name": "TC"
+		"cl": {
+			"name": "CL"
 		},
 		"cn": {
 			"name": "CN"
@@ -121,7 +121,7 @@
 	},
 	"os2encodings": {
 		"JP": {
-			"gbk": true,
+			"gbk": false,
 			"big5": false,
 			"jis": true,
 			"korean": false
@@ -132,14 +132,14 @@
 			"jis": false,
 			"korean": false
 		},
-		"TC": {
+		"CL": {
 			"gbk": true,
 			"big5": true,
 			"jis": false,
 			"korean": false
 		},
 		"KR": {
-			"gbk": true,
+			"gbk": false,
 			"big5": false,
 			"jis": false,
 			"korean": true
@@ -147,7 +147,7 @@
 	},
 	"nameTupleSelector": {
 		"CN": ["en_US", "zh_CN", "zh_HK", "zh_TW", "ja_JP", "ko_KR"],
-		"TC": ["en_US", "zh_HK", "zh_TW", "zh_CN", "ja_JP", "ko_KR"],
+		"CL": ["en_US", "zh_HK", "zh_TW", "zh_CN", "ja_JP", "ko_KR"],
 		"JP": ["en_US", "ja_JP", "zh_CN", "zh_HK", "zh_TW", "ko_KR"],
 		"KR": ["en_US", "ko_KR", "zh_CN", "zh_HK", "zh_TW", "ja_JP"]
 	},
@@ -158,7 +158,7 @@
 			"jp": "SourceHanSans",
 			"kr": "SourceHanSansK",
 			"cn": "SourceHanSansSC",
-			"tc": "SourceHanSansHC"
+			"cl": "SourceHanSansHC"
 		},
 		"style": {
 			"extralight": "ExtraLight",
@@ -169,8 +169,8 @@
 			"bold": "Bold",
 			"heavy": "Heavy"
 		},
-		"classicalRegion": "tc",
-		"classicalOverridePrefix":"ChiuKongGothic-M",
+		"classicalRegion": "cl",
+		"classicalOverridePrefix":"ChiuKongGothic-CL",
 		"classicalOverrideSuffix": {
 			"extralight": "ExtraLight.subset",
 			"light": "Light.subset",
