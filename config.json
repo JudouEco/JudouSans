@@ -33,7 +33,7 @@
 		"heavyitalic"
 	],
 	"latinGroups": {
-		"JudouSansPhonograms": {
+		"FariGO": {
 			"isCff": false,
 			"styleToFileSuffixMap": {
 				"extralight": "UltraLight",
