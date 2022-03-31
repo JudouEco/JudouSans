@@ -66,7 +66,7 @@ Please note that you will need *a lot of* memory to create TTCs, due to the huge
 
 ## What are the names?
 - Orthography dimension
-  - `CN`: Chinese mainland orthography.
-  - `TC`: [ChiuKong Gothic M orthography](https://github.com/ChiuMing-Neko/ChiuKongGothic#%E7%8F%BE%E4%BB%A3%E7%AD%86%E5%BD%A2%E5%8D%B0%E5%88%B7%E9%AB%94%E5%AD%97%E5%BD%A2%E7%89%88%E6%9C%ACmn).
+  - `CN`: Chinese GB orthography.
+  - `CL`: Chinese old orthography.
   - `JP`: Japanese orthography.
   - `KR`: Korean orthography.
