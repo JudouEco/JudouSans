@@ -18,9 +18,16 @@ This is **Judou Sans**, a CJK font based on [Sarasa Gothic](https://github.com/b
 - Kana
 - Latin Extended
 - Nüshu
-- Pan African
 - Polytonic Greek
 - Thai
+
+## What are the names?
+
+- Orthography dimension
+  - `CN`: Chinese GB orthography.
+  - `CL`: Chinese old orthography.
+  - `JP`: Japanese orthography.
+  - `KR`: Korean orthography.
 
 ## To build
 
@@ -63,10 +70,3 @@ npm run build ttc
 instead, the files would be in `out/ttc` directory.
 
 Please note that you will need *a lot of* memory to create TTCs, due to the huge quantity of subfamily-orthography combinations.
-
-## What are the names?
-- Orthography dimension
-  - `CN`: Chinese GB orthography.
-  - `CL`: Chinese old orthography.
-  - `JP`: Japanese orthography.
-  - `KR`: Korean orthography.
