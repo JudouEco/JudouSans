@@ -1,21 +1,24 @@
 # 句讀黑體
 
-**句讀黑體**是一款基於[更紗黑體](https://github.com/be5invis/Sarasa-Gothic)、[思源黑體](https://github.com/adobe-fonts/source-han-sans)、[秋空黑體](https://github.com/ChiuMing-Neko/ChiuKongGothic)、[Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu) 和 [FiraGO](https://github.com/bBoxType/FiraGO) 的中日韓無襯線字型。
+**句讀黑體**，支援多種語言文字的商用免費黑體，基於[更紗黑體](https://github.com/be5invis/Sarasa-Gothic)、[思源黑體](https://github.com/adobe-fonts/source-han-sans)、[秋空黑體](https://github.com/ChiuMing-Neko/ChiuKongGothic)、[Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu) 和 [FiraGO](https://github.com/bBoxType/FiraGO) 。
 
 ## 支持的文字
 
-- 阿拉伯文
+### 來自思源黑體 / 秋空黑體
 - 漢字
-- 西里爾文擴展 (+ locl BGR 和 SRB)
+- 假名
+- 諺文
+### 來自 Noto Traditional Nushu
+- 女書
+### 來自 FiraGO
+- 拉丁文擴展
+- 西里爾文擴展 (包含塞爾維亞語和保加利亞語的 Opentype `locl` 特性)
+- 希臘文擴展
+- 國際音標
+- 阿拉伯文
 - 天城文
 - 格魯吉亞文
-- 諺文
 - 希伯來文
-- 國際音標
-- 假名
-- 拉丁文擴展
-- 女書
-- 希臘文擴展
 - 泰文
 
 ## 名字的含義

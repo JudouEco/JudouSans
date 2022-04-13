@@ -1,24 +1,28 @@
-# Judou Sans (句读黑体 / 句讀黑體 / Judou ゴシック / Judou 고딕)
+# Judou Sans
+句读黑体 / 句讀黑體 / Judou ゴシック / Judou 고딕
 
-[简体中文](./README.zh-hans.md)
-[繁體中文](./README.zh-hant.md)
+[简体中文介绍](./README.zh-hans.md)
+[繁體中文介紹](./README.zh-hant.md)
 
-This is **Judou Sans**, a CJK font based on [Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic), [Source Han Sans](https://github.com/adobe-fonts/source-han-sans), [ChiuKong Gothic](https://github.com/ChiuMing-Neko/ChiuKongGothic), [Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu) and [FiraGO](https://github.com/bBoxType/FiraGO).
+**Judou Sans**, a multilingual typeface based on [Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic), [Source Han Sans](https://github.com/adobe-fonts/source-han-sans), [ChiuKong Gothic](https://github.com/ChiuMing-Neko/ChiuKongGothic), [Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu) and [FiraGO](https://github.com/bBoxType/FiraGO).
 
 ## Script support
 
-- Arabic
+### From Source Han Sans / ChiuKong Gothic
 - CJK Ideographic
+- Hangul
+- Kana
+### From Noto Traditional Nushu
+- Nüshu
+### From FiraGO
+- Latin Extended
 - Cyrillic Extended (+ locl BGR and SRB)
+- Polytonic Greek
+- IPA
+- Arabic
 - Devanagari
 - Georgian
-- Hangul
 - Hebrew
-- IPA
-- Kana
-- Latin Extended
-- Nüshu
-- Polytonic Greek
 - Thai
 
 ## What are the names?
