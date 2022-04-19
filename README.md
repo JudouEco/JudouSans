@@ -1,5 +1,5 @@
 # 句读黑体
-Judou Sans (tɕy toʊ ˈsænz) / 句讀黑體 / Judou ゴシック / Judou 고딕
+Judou Sans (tɕy toʊ ˈsænz) / 𛆘𛋥𛋚𛋒 / 句讀黑體 / Judou ゴシック / Judou 고딕
 
 [繁體中文](./README.zh-hant.md)
 [English](./README.en.md)
