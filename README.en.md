@@ -1,5 +1,5 @@
 # Judou Sans
-句读黑体 / 句讀黑體 / Judou ゴシック / Judou 고딕
+句读黑体 / 句讀黑體 / 𛆘𛋥𛋚𛋒 / Judou ゴシック / Judou 고딕
 
 **Judou Sans** (tɕy toʊ ˈsænz) is a multilingual typeface based on [Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic), [Source Han Sans](https://github.com/adobe-fonts/source-han-sans), [ChiuKong Gothic](https://github.com/ChiuMing-Neko/ChiuKongGothic), [Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu) and [FiraGO](https://github.com/bBoxType/FiraGO).
 
