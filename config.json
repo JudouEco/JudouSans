@@ -1,11 +1,11 @@
 {
 	"buildOptions":{},
-	"familyOrder": ["sans"],
+	"familyOrder": ["sans","ui"],
 	"families": {
 		"sans": {
 			"isTNUM": false,
 			"isGothic": true,
-			"latinGroup": "FariGO",
+			"latinGroup": "Firrn",
 			"naming": {
 				"en_US": "Judou Sans",
 				"zh_CN": "句读黑体",
@@ -13,6 +13,22 @@
 				"zh_HK": "句讀黑體",
 				"ja_JP": "Judou ゴシック",
 				"ko_KR": "Judou 고딕"
+			}
+		},
+		"ui": {
+			"isTNUM": true,
+			"isSS05": true,
+			"isSS06": true,
+			"isPWID": true,
+			"isGothic": true,
+			"latinGroup": "Firrn",
+			"naming": {
+				"en_US": "Judou Sans UI",
+				"zh_CN": "句读黑体 UI",
+				"zh_TW": "句讀黑體 UI",
+				"zh_HK": "句讀黑體 UI",
+				"ja_JP": "Judou ゴシック UI",
+				"ko_KR": "Judou 고딕 UI"
 			}
 		}
 	},
@@ -33,7 +49,7 @@
 		"heavyitalic"
 	],
 	"latinGroups": {
-		"FariGO": {
+		"Firrn": {
 			"isCff": false,
 			"styleToFileSuffixMap": {
 				"extralight": "UltraLight",

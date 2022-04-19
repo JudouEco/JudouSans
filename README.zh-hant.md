@@ -1,4 +1,5 @@
 # 句讀黑體
+Judou Sans (tɕy toʊ ˈsænz) / 句读黑体 / Judou ゴシック / Judou 고딕
 
 **句讀黑體**，支援多種語言文字的商用免費黑體，基於[更紗黑體](https://github.com/be5invis/Sarasa-Gothic)、[思源黑體](https://github.com/adobe-fonts/source-han-sans)、[秋空黑體](https://github.com/ChiuMing-Neko/ChiuKongGothic)、[Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu) 和 [FiraGO](https://github.com/bBoxType/FiraGO)。
 
@@ -21,13 +22,13 @@
 - 希伯來文
 - 泰文
 
-## 名字的含義
+## 字型名稱解讀
 
-- 按照字型劃分
-  - `CN`: 中國新字形。
-  - `CL`: 中國舊字形。
-  - `JP`: 日本字形。
-  - `KR`: 韓國字形。
+- 按照字形劃分
+  - `CN`: 中國新字形
+  - `CL`: 中國舊字形
+  - `JP`: 日本字形
+  - `KR`: 韓國字形
 
 ## 構建字型
 

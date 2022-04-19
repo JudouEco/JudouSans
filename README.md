@@ -1,76 +1,76 @@
-# Judou Sans
-句读黑体 / 句讀黑體 / Judou ゴシック / Judou 고딕
+# 句读黑体
+Judou Sans (tɕy toʊ ˈsænz) / 句讀黑體 / Judou ゴシック / Judou 고딕
 
-[简体中文介绍](./README.zh-hans.md)
-[繁體中文介紹](./README.zh-hant.md)
+[繁體中文](./README.zh-hant.md)
+[English](./README.en.md)
 
-**Judou Sans**, a multilingual typeface based on [Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic), [Source Han Sans](https://github.com/adobe-fonts/source-han-sans), [ChiuKong Gothic](https://github.com/ChiuMing-Neko/ChiuKongGothic), [Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu) and [FiraGO](https://github.com/bBoxType/FiraGO).
+**句读黑体**，支持多种语言文字的商用免费黑体，基于[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)、[思源黑体](https://github.com/adobe-fonts/source-han-sans)、[秋空黑体](https://github.com/ChiuMing-Neko/ChiuKongGothic)、[Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu) 和 [FiraGO](https://github.com/bBoxType/FiraGO)。
 
-## Script support
+## 支持的文字
 
-### From Source Han Sans / ChiuKong Gothic
-- CJK Ideographic
-- Hangul
-- Kana
-### From Noto Traditional Nushu
-- Nüshu
-### From FiraGO
-- Latin Extended
-- Cyrillic Extended (+ locl BGR and SRB)
-- Polytonic Greek
-- IPA
-- Arabic
-- Devanagari
-- Georgian
-- Hebrew
-- Thai
+### 来自思源黑体 / 秋空黑体
+- 汉字
+- 假名
+- 谚文
+### 来自 Noto Traditional Nushu
+- 女书
+### 来自 FiraGO
+- 拉丁文扩展
+- 西里尔文扩展 (包含塞尔维亚语和保加利亚语的 Opentype `locl` 特性)
+- 希腊文扩展
+- 国际音标
+- 阿拉伯文
+- 天城文
+- 格鲁吉亚文
+- 希伯来文
+- 泰文
 
-## What are the names?
+## 字体名称解读
 
-- Orthography dimension
-  - `CN`: Chinese GB orthography.
-  - `CL`: Chinese old orthography.
-  - `JP`: Japanese orthography.
-  - `KR`: Korean orthography.
+- 按照字型划分
+  - `CN`: 中国新字形
+  - `CL`: 中国旧字形
+  - `JP`: 日本字形
+  - `KR`: 韩国字形
 
-## To build
+## 构建字体
 
-You need [Node.js](https://nodejs.org/en/) (version 12 or newer), [otfcc](https://github.com/caryll/otfcc), [AFDKO](http://www.adobe.com/devnet/opentype/afdko.html) and [ttfautohint](https://www.freetype.org/ttfautohint) installed, then run:
+您需要安装 [Node.js](https://nodejs.org/zh-cn/) （12 版以及更新）、[otfcc](https://github.com/caryll/otfcc)、[AFDKO](http://www.adobe.com/devnet/opentype/afdko.html) 以及 [ttfautohint](https://www.freetype.org/ttfautohint)，然后在终端输入
 
 ```bash
 npm install
 ```
 
-after the NPM packages are installed, run
+在所有 NPM 包都安装之后，输入
 
 ```bash
 npm run build ttfu
 ```
 
-to build the unhinted TTF files, it would be in `out/ttf-unhinted` directory.
+来构建**不含**字体微调技术的 TTF 格式字体文件，这些文件将会保存在 `out/ttf-unhinted` 目录。
 
-To build unhinted TTC, type
+如果想构建**不含**字体微调技术的 TTC 格式字体文件，请输入
 
 ```bash
 npm run build ttcu
 ```
 
-instead, the files would be in `out/ttc-unhinted` directory.
+这些文件将会保存在 `out/ttc-unhinted` 目录。
 
-To build hinted TTF, type
+如果想构建**包含**字体微调技术的 TTF 格式字体文件，请输入
 
 ```bash
 npm run build ttf
 ```
 
-instead, the files would be in `out/ttf` directory.
+这些文件将会保存在 `out/ttf` 目录。顺带一提，构建包含字体微调技术的字体文件需要**很长**时间。
 
-To build hinted TTC, type
+如果想构建**包含**字体微调技术的 TTC 格式字体文件，请输入
 
 ```bash
 npm run build ttc
 ```
 
-instead, the files would be in `out/ttc` directory.
+这些文件将会保存在 `out/ttc` 目录。
 
-Please note that you will need *a lot of* memory to create TTCs, due to the huge quantity of subfamily-orthography combinations.
+请注意，由于各地字型组合的数量巨大，您将需要*大量*的内存来构建 TTC 格式字体文件。
