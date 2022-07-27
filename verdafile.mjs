@@ -12,7 +12,7 @@ const { run, node, rm, cd, mv, cp } = build.actions;
 const { FileList } = build.predefinedFuncs;
 
 // Directories
-const PREFIX = `sarasa`;
+const PREFIX = `judou`;
 const BUILD = `.build`;
 const OUT = `out`;
 const SOURCES = `sources`;
@@ -52,6 +52,15 @@ const Ttc = phony(`ttc`, async t => {
 
 const Ttf = phony(`ttf`, async t => {
 	await t.need(TtfFontFiles`ttf`, TtfFontFiles`ttf-unhinted`);
+});
+
+const Ttcu = phony(`ttcu`, async t => {
+	await t.need(TtfFontFiles`ttf-unhinted`);
+	await t.need(TtcFontFiles`ttc-unhinted`);
+});
+
+const Ttfu = phony(`ttfu`, async t => {
+	await t.need(TtfFontFiles`ttf-unhinted`);
 });
 
 const Dependencies = oracle("oracles::dependencies", async () => {
