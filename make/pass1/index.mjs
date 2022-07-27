@@ -36,7 +36,7 @@ export default (async function (argv) {
 		a.glyf[g].verticalOrigin = a.head.unitsPerEm * 0.88;
 		a.glyf[g].advanceHeight = a.head.unitsPerEm;
 	}
-	if (argv.italize) italize(a, -9.4);
+	if (argv.italize) italize(a, -8);
 	knockoutSymbols(a, { enclosedAlphaNumerics: !argv.mono, pua: !argv.mono });
 	crossTransfer(a, b, [0x2010, 0x2011, 0x2012, 0x2013, 0x2014, 0x2015]);
 
@@ -76,7 +76,7 @@ export default (async function (argv) {
 			}
 		}
 	);
-	if (argv.italize) italize(a, +9.4);
+	if (argv.italize) italize(a, +8);
 
 	a.glyph_order = gc(a);
 	await buildFont(a, { to: argv.o });

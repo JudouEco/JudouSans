@@ -1,107 +1,34 @@
 {
 	"buildOptions":{},
-	"familyOrder": ["gothic", "ui", "mono", "mono-slab", "term", "term-slab", "fixed", "fixed-slab"],
+	"familyOrder": ["sans","ui"],
 	"families": {
-		"gothic": {
-			"isTNUM": true,
+		"sans": {
+			"isTNUM": false,
 			"isGothic": true,
-			"latinGroup": "Inter",
+			"latinGroup": "FiraGOforJudouSans",
 			"naming": {
-				"en_US": "Sarasa Gothic",
-				"zh_CN": "更纱黑体",
-				"zh_TW": "更紗黑體",
-				"zh_HK": "更紗黑體",
-				"ja_JP": "更紗ゴシック",
-				"ko_KR": "사라사 고딕"
+				"en_US": "Judou Sans",
+				"zh_CN": "句读黑体",
+				"zh_TW": "句讀黑體",
+				"zh_HK": "句讀黑體",
+				"ja_JP": "Judou ゴシック",
+				"ko_KR": "Judou 고딕"
 			}
 		},
 		"ui": {
 			"isTNUM": true,
+			"isSS05": true,
+			"isSS06": true,
 			"isPWID": true,
-			"latinGroup": "Inter",
+			"isGothic": true,
+			"latinGroup": "FiraGOforJudouSans",
 			"naming": {
-				"en_US": "Sarasa UI",
-				"zh_CN": "更纱黑体 UI",
-				"zh_TW": "更紗黑體 UI",
-				"zh_HK": "更紗黑體 UI",
-				"ja_JP": "更紗ゴシック UI",
-				"ko_KR": "사라사 고딕 UI"
-			}
-		},
-		"mono": {
-			"isMono": true,
-			"latinGroup": "iosevka-n",
-			"naming": {
-				"en_US": "Sarasa Mono",
-				"zh_CN": "等距更纱黑体",
-				"zh_TW": "等距更紗黑體",
-				"zh_HK": "等距更紗黑體",
-				"ja_JP": "更紗等幅ゴシック",
-				"ko_KR": "사라사 고정 폭고딕"
-			}
-		},
-		"term": {
-			"isMono": true,
-			"isTerm": true,
-			"latinGroup": "iosevka-n-term",
-			"naming": {
-				"en_US": "Sarasa Term",
-				"zh_CN": "Sarasa Term",
-				"zh_TW": "Sarasa Term",
-				"zh_HK": "Sarasa Term",
-				"ja_JP": "Sarasa Term",
-				"ko_KR": "Sarasa Term"
-			}
-		},
-		"fixed": {
-			"isMono": true,
-			"isTerm": true,
-			"latinGroup": "iosevka-n-fixed",
-			"naming": {
-				"en_US": "Sarasa Fixed",
-				"zh_CN": "Sarasa Fixed",
-				"zh_TW": "Sarasa Fixed",
-				"zh_HK": "Sarasa Fixed",
-				"ja_JP": "Sarasa Fixed",
-				"ko_KR": "Sarasa Fixed"
-			}
-		},
-		"mono-slab": {
-			"isMono": true,
-			"latinGroup": "iosevka-n-slab",
-			"naming": {
-				"en_US": "Sarasa Mono Slab",
-				"zh_CN": "等距更纱黑体 Slab",
-				"zh_TW": "等距更紗黑體 Slab",
-				"zh_HK": "等距更紗黑體 Slab",
-				"ja_JP": "更紗等幅ゴシック Slab",
-				"ko_KR": "사라사 고정 폭고딕 Slab"
-			}
-		},
-		"term-slab": {
-			"isMono": true,
-			"latinGroup": "iosevka-n-term-slab",
-			"isTerm": true,
-			"naming": {
-				"en_US": "Sarasa Term Slab",
-				"zh_CN": "Sarasa Term Slab",
-				"zh_TW": "Sarasa Term Slab",
-				"zh_HK": "Sarasa Term Slab",
-				"ja_JP": "Sarasa Term Slab",
-				"ko_KR": "Sarasa Term Slab"
-			}
-		},
-		"fixed-slab": {
-			"isMono": true,
-			"latinGroup": "iosevka-n-fixed-slab",
-			"isTerm": true,
-			"naming": {
-				"en_US": "Sarasa Fixed Slab",
-				"zh_CN": "Sarasa Fixed Slab",
-				"zh_TW": "Sarasa Fixed Slab",
-				"zh_HK": "Sarasa Fixed Slab",
-				"ja_JP": "Sarasa Fixed Slab",
-				"ko_KR": "Sarasa Fixed Slab"
+				"en_US": "Judou Sans UI",
+				"zh_CN": "句读黑体 UI",
+				"zh_TW": "句讀黑體 UI",
+				"zh_HK": "句讀黑體 UI",
+				"ja_JP": "Judou ゴシック UI",
+				"ko_KR": "Judou 고딕 UI"
 			}
 		}
 	},
@@ -110,27 +37,35 @@
 		"extralightitalic",
 		"light",
 		"lightitalic",
+		"semilight",
+		"semilightitalic",
 		"regular",
 		"italic",
-		"semibold",
-		"semibolditalic",
+		"medium",
+		"mediumitalic",
 		"bold",
-		"bolditalic"
+		"bolditalic",
+		"heavy",
+		"heavyitalic"
 	],
 	"latinGroups": {
-		"Inter": {
+		"FiraGOforJudouSans": {
 			"isCff": false,
 			"styleToFileSuffixMap": {
-				"extralight": "ExtraLight",
-				"extralightitalic": "ExtraLightItalic",
+				"extralight": "UltraLight",
+				"extralightitalic": "UltraLightItalic",
 				"light": "Light",
 				"lightitalic": "LightItalic",
+				"semilight": "Book",
+				"semilightitalic": "BookItalic",
 				"regular": "Regular",
 				"italic": "Italic",
-				"semibold": "SemiBold",
-				"semibolditalic": "SemiBoldItalic",
+				"medium": "Medium",
+				"mediumitalic": "MediumItalic",
 				"bold": "Bold",
-				"bolditalic": "BoldItalic"
+				"bolditalic": "BoldItalic",
+				"heavy": "ExtraBold",
+				"heavyitalic": "ExtraBoldItalic"
 			}
 		}
 	},
@@ -149,6 +84,13 @@
 			"name": "Light Italic",
 			"uprightStyleMap": "light"
 		},
+		"semilight": {
+			"name": "Semilight"
+		},
+		"semilightitalic": {
+			"name": "Semilight Italic",
+			"uprightStyleMap": "semilight"
+		},
 		"regular": {
 			"name": "Regular"
 		},
@@ -156,12 +98,12 @@
 			"name": "Italic",
 			"uprightStyleMap": "regular"
 		},
-		"semibold": {
-			"name": "Semibold"
+		"medium": {
+			"name": "Medium"
 		},
-		"semibolditalic": {
-			"name": "Semibold Italic",
-			"uprightStyleMap": "semibold"
+		"mediumitalic": {
+			"name": "Medium Italic",
+			"uprightStyleMap": "medium"
 		},
 		"bold": {
 			"name": "Bold"
@@ -169,61 +111,50 @@
 		"bolditalic": {
 			"name": "Bold Italic",
 			"uprightStyleMap": "bold"
+		},
+		"heavy": {
+			"name": "Heavy"
+		},
+		"heavyitalic": {
+			"name": "Heavy Italic",
+			"uprightStyleMap": "heavy"
 		}
 	},
-	"subfamilyOrder": ["cl", "sc", "tc", "hc", "j", "k"],
+	"subfamilyOrder": ["cn", "cl", "jp", "kr"],
 	"subfamilies": {
 		"cl": {
 			"name": "CL"
 		},
-		"sc": {
-			"name": "SC"
+		"cn": {
+			"name": "CN"
 		},
-		"tc": {
-			"name": "TC"
+		"jp": {
+			"name": "JP"
 		},
-		"hc": {
-			"name": "HC"
-		},
-		"j": {
-			"name": "J"
-		},
-		"k": {
-			"name": "K"
+		"kr": {
+			"name": "KR"
 		}
 	},
 	"os2encodings": {
-		"J": {
+		"JP": {
 			"gbk": false,
 			"big5": false,
 			"jis": true,
 			"korean": false
 		},
-		"SC": {
+		"CN": {
 			"gbk": true,
 			"big5": false,
 			"jis": false,
 			"korean": false
 		},
-		"TC": {
-			"gbk": false,
-			"big5": true,
-			"jis": false,
-			"korean": false
-		},
-		"HC": {
-			"gbk": false,
-			"big5": true,
-			"jis": false,
-			"korean": false
-		},
 		"CL": {
-			"gbk": false,
+			"gbk": true,
 			"big5": true,
 			"jis": false,
 			"korean": false
 		},
-		"K": {
+		"KR": {
 			"gbk": false,
 			"big5": false,
 			"jis": false,
@@ -231,45 +162,39 @@
 		}
 	},
 	"nameTupleSelector": {
-		"J": ["en_US", "ja_JP"],
-		"K": ["en_US", "ko_KR"],
-		"SC": ["en_US", "zh_CN"],
-		"TC": ["en_US", "zh_TW"],
-		"HC": ["en_US", "zh_HK"],
-		"CL": ["en_US", "zh_TW"]
+		"CN": ["en_US", "zh_CN", "zh_HK", "zh_TW", "ja_JP", "ko_KR"],
+		"CL": ["en_US", "zh_HK", "zh_TW", "zh_CN", "ja_JP", "ko_KR"],
+		"JP": ["en_US", "ja_JP", "zh_CN", "zh_HK", "zh_TW", "ko_KR"],
+		"KR": ["en_US", "ko_KR", "zh_CN", "zh_HK", "zh_TW", "ja_JP"]
 	},
-	"copyright": "Copyright (c) 2015-2022, Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright (c) 2016-2020 The Inter Project Authors. Portions Copyright (c) 2014, 2015 Adobe Systems Incorporated (http://www.adobe.com/). Portions Copyright (c) 2012 Google Inc.",
+	"copyright": "Copyright 2017-2022 Judou Metamedia. Portions Copyright 2015-2021 Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright © 2014-2019 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. Portions digitized data copyright 2012–2018 for FiraGO, bBox Type GmbH and HERE Europe B.V. All rights reserved, with Reserved Font Name 'Fira'. Portions digitized data copyright 2012–2018 for Fira Sans The Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH, with Reserved Font Name 'Fira'. Portions Copyright 2021 ChiuMing-Neko Based on SourceHanSans 2.004. Portions Copyright 2019-2022 Google LLC. All Rights Reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1.",
 	"shsSourceMap": {
 		"defaultRegion": "SourceHanSans",
 		"region": {
-			"j": "SourceHanSans",
-			"k": "SourceHanSansK",
-			"cl": "SourceHanSansK",
-			"sc": "SourceHanSansSC",
-			"tc": "SourceHanSansTC",
-			"hc": "SourceHanSansHC",
-			"j-hw": "SourceHanSansHW",
-			"k-hw": "SourceHanSansHWK",
-			"cl-hw": "SourceHanSansHWK",
-			"sc-hw": "SourceHanSansHWSC",
-			"tc-hw": "SourceHanSansHWTC",
-			"hc-hw": "SourceHanSansHWHC"
+			"jp": "SourceHanSans",
+			"kr": "SourceHanSansK",
+			"cn": "SourceHanSansSC",
+			"cl": "SourceHanSansHC"
 		},
 		"style": {
 			"extralight": "ExtraLight",
 			"light": "Light",
+			"semilight": "Normal",
 			"regular": "Regular",
-			"semibold": "Medium",
-			"bold": "Bold"
+			"medium": "Medium",
+			"bold": "Bold",
+			"heavy": "Heavy"
 		},
 		"classicalRegion": "cl",
-		"classicalOverridePrefix":"GenneGothic",
+		"classicalOverridePrefix":"ChiuKongGothic-CL",
 		"classicalOverrideSuffix": {
-			"extralight": "ExtraLight-subset",
-			"light": "Light-subset",
-			"regular": "Regular-subset",
-			"semibold": "Medium-subset",
-			"bold": "Bold-subset"
+			"extralight": "ExtraLight.subset",
+			"light": "Light.subset",
+			"semilight": "Normal.subset",
+			"regular": "Regular.subset",
+			"medium": "Medium.subset",
+			"bold": "Bold.subset",
+			"heavy": "Heavy.subset"
 		}
 	}
 }

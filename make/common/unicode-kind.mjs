@@ -27,7 +27,10 @@ export const isFEMisc = c =>
 	(c >= 0x1f000 && c <= 0x1f2ff);
 export const isWS = function (c) {
 	return (
-		((c >= 0x2000 && c <= 0x200f) || (c >= 0x20a0 && c < 0x3000)) &&
+		((c >= 0x2000 && c <= 0x200f) || (c >= 0x20a0 && c < 0x3000)) 
+		|| (c >= 0xff10 && c <= 0xff19)
+		|| (c >= 0xff21 && c <= 0xff3a)
+		|| (c >= 0xff41 && c <= 0xff5a) &&
 		!(c >= 0x2e3a && c <= 0x2e3b)
 	);
 };
