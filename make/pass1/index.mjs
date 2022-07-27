@@ -15,6 +15,8 @@ import { knockoutSymbols } from "./knockout-symbols.mjs";
 import { nameFont, setHintFlag } from "./metadata.mjs";
 import { buildNexusDash } from "./nexus-dash.mjs";
 import { toTNUM } from "./tnum.mjs";
+import { toSS05 } from "./ss05.mjs";
+import { toSS06 } from "./ss06.mjs";
 
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
@@ -30,6 +32,8 @@ export default (async function (argv) {
 
 	// tnum
 	if (argv.tnum) toTNUM(a);
+	if (argv.ss05) toSS05(a);
+	if (argv.ss06) toSS06(a);
 	// vhea
 	a.vhea = b.vhea;
 	for (let g in a.glyf) {

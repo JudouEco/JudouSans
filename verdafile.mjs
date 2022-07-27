@@ -212,6 +212,8 @@ function flagsOfFamily(config, family) {
 		mono: config.families[family].isMono || false,
 		pwid: config.families[family].isPWID || false,
 		tnum: config.families[family].isTNUM || false,
+		ss05: config.families[family].isSS05 || false,
+		ss06: config.families[family].isSS06 || false,
 		term: config.families[family].isTerm || false
 	};
 }
