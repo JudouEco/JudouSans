@@ -5,7 +5,7 @@
 		"sans": {
 			"isTNUM": false,
 			"isGothic": true,
-			"latinGroup": "FiraGOforJudouSans",
+			"latinGroup": "FG4J",
 			"naming": {
 				"en_US": "Judou Sans",
 				"zh_CN": "句读黑体",
@@ -21,7 +21,7 @@
 			"isSS06": true,
 			"isPWID": true,
 			"isGothic": true,
-			"latinGroup": "FiraGOforJudouSans",
+			"latinGroup": "FG4J",
 			"naming": {
 				"en_US": "Judou Sans UI",
 				"zh_CN": "句读黑体 UI",
@@ -49,7 +49,7 @@
 		"heavyitalic"
 	],
 	"latinGroups": {
-		"FiraGOforJudouSans": {
+		"FG4J": {
 			"isCff": false,
 			"styleToFileSuffixMap": {
 				"extralight": "UltraLight",
