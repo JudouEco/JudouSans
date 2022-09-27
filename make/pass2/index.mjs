@@ -11,8 +11,8 @@ export default (async function makeFont(argv) {
 	const a = await introFont({ from: argv.main, prefix: "a" });
 	const b = await introFont({ from: argv.kanji, prefix: "b" });
 	const c = await introFont({ from: argv.hangul, prefix: "c" });
-	if (argv.italize) italize(b, 9.4);
-	if (argv.italize) italize(c, 9.4);
+	if (argv.italize) italize(b, 8.0);
+	if (argv.italize) italize(c, 8.0);
 	mergeBelow(a, b, { mergeOTL: true });
 	mergeBelow(a, c, { mergeOTL: true });
 	shareFeatures(a.GSUB);

@@ -15,6 +15,8 @@ import { knockoutSymbols } from "./knockout-symbols.mjs";
 import { nameFont, setHintFlag } from "./metadata.mjs";
 import { buildNexusDash } from "./nexus-dash.mjs";
 import { toTNUM } from "./tnum.mjs";
+import { toSS05 } from "./ss05.mjs";
+import { toSS06 } from "./ss06.mjs";
 
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
@@ -29,8 +31,10 @@ export default (async function (argv) {
 
 	rebaseFont(main, { scale: 1000 / main.head.unitsPerEm });
 
-	// tnum
+	// tnum, ss05 and ss06
 	if (argv.tnum) toTNUM(main);
+	if (argv.ss05) toSS05(main);
+	if (argv.ss06) toSS06(main);
 	// vhea
 	main.vhea = as.vhea;
 	for (let g in main.glyf) {
@@ -38,7 +42,7 @@ export default (async function (argv) {
 		main.glyf[g].advanceHeight = main.head.unitsPerEm;
 	}
 
-	if (argv.italize) italize(main, -9.4);
+	if (argv.italize) italize(main, -8.0);
 
 	knockoutSymbols(main, { enclosedAlphaNumerics: !argv.mono, pua: !argv.mono });
 	crossTransfer(main, as, [0x2010, 0x2011, 0x2012, 0x2013, 0x2014, 0x2015]);
@@ -81,7 +85,7 @@ export default (async function (argv) {
 		}
 	);
 
-	if (argv.italize) italize(main, +9.4);
+	if (argv.italize) italize(main, +8.0);
 
 	main.glyph_order = gc(main);
 	await buildFont(main, { to: argv.o });
