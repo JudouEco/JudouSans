@@ -29,10 +29,10 @@
   - `Judou Sans UI`: Quotes (`“` `”`) are narrow, with the single-storey `g`, the closed-top variant `4` and tabular figures
 
 - Orthography dimension
-  - `CN`: Chinese GB orthography
-  - `CL`: Chinese old orthography
-  - `JP`: Japanese orthography
-  - `KR`: Korean orthography
+  - `Hans`: Chinese GB orthography
+  - `Hant`: Chinese Inherited orthography
+  - `Jpan`: Japanese orthography
+  - `Kore`: Korean orthography
 
 ## To build
 

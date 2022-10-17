@@ -120,41 +120,41 @@
 			"uprightStyleMap": "heavy"
 		}
 	},
-	"subfamilyOrder": ["cn", "cl", "jp", "kr"],
+	"subfamilyOrder": ["hans", "hant", "jpan", "kore"],
 	"subfamilies": {
-		"cl": {
-			"name": "CL"
+		"hant": {
+			"name": "Hant"
 		},
-		"cn": {
-			"name": "CN"
+		"hans": {
+			"name": "Hans"
 		},
-		"jp": {
-			"name": "JP"
+		"jpan": {
+			"name": "Jpan"
 		},
-		"kr": {
-			"name": "KR"
+		"kore": {
+			"name": "Kore"
 		}
 	},
 	"os2encodings": {
-		"JP": {
+		"Jpan": {
 			"gbk": false,
 			"big5": false,
 			"jis": true,
 			"korean": false
 		},
-		"CN": {
+		"Hans": {
 			"gbk": true,
 			"big5": false,
 			"jis": false,
 			"korean": false
 		},
-		"CL": {
-			"gbk": true,
+		"Hant": {
+			"gbk": false,
 			"big5": true,
 			"jis": false,
 			"korean": false
 		},
-		"KR": {
+		"Kore": {
 			"gbk": false,
 			"big5": false,
 			"jis": false,
@@ -162,19 +162,19 @@
 		}
 	},
 	"nameTupleSelector": {
-		"CN": ["en_US", "zh_CN", "zh_HK", "zh_TW", "ja_JP", "ko_KR"],
-		"CL": ["en_US", "zh_HK", "zh_TW", "zh_CN", "ja_JP", "ko_KR"],
-		"JP": ["en_US", "ja_JP", "zh_CN", "zh_HK", "zh_TW", "ko_KR"],
-		"KR": ["en_US", "ko_KR", "zh_CN", "zh_HK", "zh_TW", "ja_JP"]
+		"Hans": ["en_US", "zh_CN", "zh_HK", "zh_TW", "ja_JP", "ko_KR"],
+		"Hant": ["en_US", "zh_HK", "zh_TW", "zh_CN", "ja_JP", "ko_KR"],
+		"Jpan": ["en_US", "ja_JP", "zh_CN", "zh_HK", "zh_TW", "ko_KR"],
+		"Kore": ["en_US", "ko_KR", "zh_CN", "zh_HK", "zh_TW", "ja_JP"]
 	},
-	"copyright": "Copyright 2017-2022 Judou Metamedia. Portions Copyright 2015-2021 Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright © 2014-2019 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. Portions digitized data copyright 2012–2018 for FiraGO, bBox Type GmbH and HERE Europe B.V. All rights reserved, with Reserved Font Name 'Fira'. Portions digitized data copyright 2012–2018 for Fira Sans The Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH, with Reserved Font Name 'Fira'. Portions Copyright 2021 ChiuMing-Neko Based on SourceHanSans 2.004. Portions Copyright 2019-2022 Google LLC. All Rights Reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+	"copyright": "Copyright 2017-2022 Judou Metamedia. Portions Copyright 2015-2021 Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright © 2014-2019 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. Portions digitized data copyright 2012–2018 for FiraGO, bBox Type GmbH and HERE Europe B.V. All rights reserved, with Reserved Font Name 'Fira'. Portions digitized data copyright 2012–2018 for Fira Sans The Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH, with Reserved Font Name 'Fira'. Portions Copyright 2019-2022 Google LLC. All Rights Reserved. This Font Software is licensed under the SIL Open Font License, Version 1.1.",
 	"shsSourceMap": {
 		"defaultRegion": "SourceHanSans",
 		"region": {
-			"jp": "SourceHanSans",
-			"kr": "SourceHanSansK",
-			"cn": "SourceHanSansSC",
-			"cl": "SourceHanSansHC"
+			"jpan": "SourceHanSans",
+			"kore": "SourceHanSansK",
+			"hans": "SourceHanSansSC",
+			"hant": "SourceHanSansHC"
 		},
 		"style": {
 			"extralight": "ExtraLight",
@@ -185,16 +185,16 @@
 			"bold": "Bold",
 			"heavy": "Heavy"
 		},
-		"classicalRegion": "cl",
-		"classicalOverridePrefix":"ChiuKongGothic-CL",
+		"classicalRegion": "hant",
+		"classicalOverridePrefix":"AdvocateAncientSans",
 		"classicalOverrideSuffix": {
-			"extralight": "ExtraLight.subset",
-			"light": "Light.subset",
-			"semilight": "Normal.subset",
-			"regular": "Regular.subset",
-			"medium": "Medium.subset",
-			"bold": "Bold.subset",
-			"heavy": "Heavy.subset"
+			"extralight": "ExtraLight",
+			"light": "Light",
+			"semilight": "Normal",
+			"regular": "Regular",
+			"medium": "Medium",
+			"bold": "Bold",
+			"heavy": "Heavy"
 		}
 	}
 }
