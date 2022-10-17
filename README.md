@@ -4,7 +4,7 @@ Judou Sans / 𛆘𛋥𛋚𛋒 / 句讀黑體 / Judou ゴシック / Judou 고딕
 [繁體中文](./README.zh-hant.md)
 [English](./README.en.md)
 
-**句读黑体**，支持多种语言文字的商用免费黑体，基于[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)、[思源黑体](https://github.com/adobe-fonts/source-han-sans)、[秋空黑体](https://github.com/ChiuMing-Neko/ChiuKongGothic)、[Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu) 和 [FiraGO](https://github.com/bBoxType/FiraGO)。
+**句读黑体**，支持多种语言文字的商用免费黑体，基于[更纱黑体](https://github.com/be5invis/Sarasa-Gothic)、[思源黑体](https://github.com/adobe-fonts/source-han-sans)、[尙古黑体](https://github.com/GuiWonder/SourceHanToClassic)、[Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu) 和 [FiraGO](https://github.com/bBoxType/FiraGO)。
 
 ## 支持的文字
 
