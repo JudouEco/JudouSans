@@ -5,7 +5,7 @@
 
 ## Script support
 
-### From Source Han Sans / ChiuKong Gothic
+### From Source Han Sans / Advocate Ancient Sans
 - CJK Ideographic
 - Hangul
 - Kana
