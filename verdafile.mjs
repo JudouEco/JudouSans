@@ -12,7 +12,7 @@ const { run, node, rm, cd, mv, cp } = build.actions;
 const { FileList } = build.predefinedFuncs;
 
 // Directories
-const PREFIX = `sarasa`;
+const PREFIX = `judou`;
 const BUILD = `.build`;
 const OUT = `out`;
 const SOURCES = `sources`;
@@ -32,7 +32,6 @@ const TTC_BUNDLE = [
 	`--max-old-space-size=16384`,
 	`node_modules/otb-ttc-bundle/bin/otb-ttc-bundle`
 ];
-const OTB_CLI = [NODEJS, `--max-old-space-size=16384`, `node_modules/ot-builder-cli/bin/otb-cli`];
 const Chlorophytum = [NODEJS, `node_modules/@chlorophytum/cli/bin/_startup`];
 
 build.setJournal(`${BUILD}/.verda-build-journal`);
@@ -63,6 +62,15 @@ const Ttc = phony(`ttc`, async t => {
 
 const Ttf = phony(`ttf`, async t => {
 	await t.need(TtfFontFiles`ttf`, TtfFontFiles`ttf-unhinted`);
+});
+
+const TtcU = phony(`ttcu`, async t => {
+	await t.need(TtfFontFiles`ttf-unhinted`);
+	await t.need(TtcFontFiles`ttc-unhinted`);
+});
+
+const TtfU = phony(`ttfu`, async t => {
+	await t.need(TtfFontFiles`ttf-unhinted`);
 });
 
 const Dependencies = oracle("oracles::dependencies", async () => {
@@ -214,6 +222,8 @@ function flagsOfFamily(config, family) {
 		mono: config.families[family].isMono || false,
 		pwid: config.families[family].isPWID || false,
 		tnum: config.families[family].isTNUM || false,
+		ss05: config.families[family].isSS05 || false,
+		ss06: config.families[family].isSS06 || false,
 		term: config.families[family].isTerm || false
 	};
 }
@@ -611,8 +621,7 @@ async function OtfccBuildOptimize(config, from, to) {
 		await run(TTX, "-q", ["-o", to], tmpTtx);
 		await rm(tmpTtx);
 	} else {
-		await run(OTB_CLI, "--optimize-size", "--recalc-os2-avg-char-width", tmpTo, "-o", to);
-		await rm(tmpTo);
+		await mv(tmpTo, to);
 	}
 }
 async function OtfccBuildAsIs(from, to) {
