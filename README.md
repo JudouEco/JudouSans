@@ -46,7 +46,7 @@ npm install
 在所有 NPM 包都安装之后，输入
 
 ```bash
-npm run build ttfu
+npm run build ttf-u
 ```
 
 来构建**不含**字体微调技术的 TTF 格式字体文件，这些文件将会保存在 `out/ttf-unhinted` 目录。
@@ -54,10 +54,18 @@ npm run build ttfu
 如果想构建**不含**字体微调技术的 TTC 格式字体文件，请输入
 
 ```bash
-npm run build ttcu
+npm run build ttc-u
 ```
 
 这些文件将会保存在 `out/ttc-unhinted` 目录。
+
+如果想构建**不含**字体微调技术的 Super TTC 格式字体文件，请输入
+
+```bash
+npm run build super-ttc-u
+```
+
+这些文件将会保存在 `out/.super-ttc` 目录。
 
 如果想构建**包含**字体微调技术的 TTF 格式字体文件，请输入
 
@@ -74,5 +82,13 @@ npm run build ttc
 ```
 
 这些文件将会保存在 `out/ttc` 目录。
+
+如果想构建**包含**字体微调技术的 Super TTC 格式字体文件，请输入
+
+```bash
+npm run build super-ttc
+```
+
+这些文件将会保存在 `out/.super-ttc` 目录。
 
 请注意，由于各地字型组合的数量巨大，您将需要*大量*的内存来构建 TTC 格式字体文件。

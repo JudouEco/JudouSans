@@ -43,7 +43,7 @@ npm install
 在所有 NPM 包都安裝之後，輸入
 
 ```bash
-npm run build ttfu
+npm run build ttf-u
 ```
 
 來構建**不含**字型微調技術的 TTF 格式字型檔案，這些檔案將會儲存在 `out/ttf-unhinted` 目錄。
@@ -51,10 +51,18 @@ npm run build ttfu
 如果想構建**不含**字型微調技術的 TTC 格式字型檔案，請輸入
 
 ```bash
-npm run build ttcu
+npm run build ttc-u
 ```
 
 這些檔案將會儲存在 `out/ttc-unhinted` 目錄。
+
+如果想構建**不含**字型微調技術的 Super TTC 格式字型檔案，請輸入
+
+```bash
+npm run build super-ttc-u
+```
+
+這些檔案將會儲存在 `out/.super-ttc` 目錄。
 
 如果想構建**包含**字型微調技術的 TTF 格式字型檔案，請輸入
 
@@ -71,5 +79,13 @@ npm run build ttc
 ```
 
 這些檔案將會儲存在 `out/ttc` 目錄。
+
+如果想構建**包含**字型微調技術的 Super TTC 格式字型檔案，請輸入
+
+```bash
+npm run build super-ttc
+```
+
+這些檔案將會儲存在 `out/.super-ttc` 目錄。
 
 請注意，由於各地字型組合的數量巨大，您將需要*大量*的記憶體來構建 TTC 格式字型檔案。

@@ -43,7 +43,7 @@ npm install
 after the NPM packages are installed, run
 
 ```bash
-npm run build ttfu
+npm run build ttf-u
 ```
 
 to build the unhinted TTF files, it would be in `out/ttf-unhinted` directory.
@@ -51,10 +51,18 @@ to build the unhinted TTF files, it would be in `out/ttf-unhinted` directory.
 To build unhinted TTC, type
 
 ```bash
-npm run build ttcu
+npm run build ttc-u
 ```
 
 instead, the files would be in `out/ttc-unhinted` directory.
+
+To build unhinted Super TTC, type
+
+```bash
+npm run build super-ttc-u
+```
+
+instead, the files would be in `out/.super-ttc` directory.
 
 To build hinted TTF, type
 
@@ -71,5 +79,13 @@ npm run build ttc
 ```
 
 instead, the files would be in `out/ttc` directory.
+
+To build hinted Super TTC, type
+
+```bash
+npm run build super-ttc
+```
+
+instead, the files would be in `out/.super-ttc` directory.
 
 Please note that you will need *a lot of* memory to create TTCs, due to the huge quantity of subfamily-orthography combinations.
