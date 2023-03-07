@@ -33,6 +33,8 @@ export default (async function (argv) {
 
 	// tnum
 	if (argv.tnum) toTNUM(main);
+	if (argv.ss05) toSS05(main);
+	if (argv.ss06) toSS06(main);
 	// vhea
 	main.vhea = as.vhea;
 	for (let g in main.glyf) {
