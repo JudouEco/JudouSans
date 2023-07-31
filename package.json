@@ -1,6 +1,6 @@
 {
-  "name": "sarasa-gothic",
-  "version": "0.41.4",
+  "name": "judou-sans",
+  "version": "1.26 beta 7",
   "main": "./run",
   "scripts": {
     "build": "verda -f verdafile.mjs",

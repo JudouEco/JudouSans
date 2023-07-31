@@ -27,10 +27,12 @@ async function pass(argv) {
 	if (main.head.unitsPerEm !== 1000) CliProc.rebaseFont(main, 1000);
 
 	if (argv.tnum) bakeFeature("tnum", main, c => c >= 0x30 && c <= 0x39);
+	if (argv.ss05) bakeFeature("ss05", main, c => c == 0x67);
+	if (argv.ss06) bakeFeature("ss06", main, c => c == 0x34);
 	initVhea(main, as);
 
 	// Drop enclosed alphanumerics and PUA
-	if (!argv.mono) dropCharacters(main, c => isEnclosedAlphanumerics(c) || isPua(c));
+	if (!argv.mono) dropCharacters(main, c => isEnclosedAlphanumerics(c));
 
 	if (argv.italize) {
 		italize(as, +9.4);

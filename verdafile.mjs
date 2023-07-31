@@ -12,7 +12,7 @@ const { run, node, rm, cd, mv, cp } = build.actions;
 const { FileList } = build.predefinedFuncs;
 
 // Directories
-const PREFIX = `sarasa`;
+const PREFIX = `judou-sans`;
 const BUILD = `.build`;
 const OUT = `out`;
 const SOURCES = `sources`;
@@ -55,6 +55,10 @@ const SuperTtc = phony(`super-ttc`, async target => {
 	await target.need(SuperTtcFile`ttc`, SuperTtcFile`ttc-unhinted`);
 });
 
+const SuperTtcU = phony(`super-ttc-u`, async target => {
+	await target.need(SuperTtcFile`ttc-unhinted`);
+});
+
 const Ttc = phony(`ttc`, async t => {
 	await t.need(TtfFontFiles`ttf`, TtfFontFiles`ttf-unhinted`);
 	// Do in serial -- otherwise, memory usage will be too high.
@@ -62,8 +66,17 @@ const Ttc = phony(`ttc`, async t => {
 	await t.need(TtcFontFiles`ttc-unhinted`);
 });
 
+const TtcU = phony(`ttc-u`, async t => {
+	await t.need(TtfFontFiles`ttf-unhinted`);
+	await t.need(TtcFontFiles`ttc-unhinted`);
+});
+
 const Ttf = phony(`ttf`, async t => {
 	await t.need(TtfFontFiles`ttf`, TtfFontFiles`ttf-unhinted`);
+});
+
+const TtfU = phony(`ttf-u`, async t => {
+	await t.need(TtfFontFiles`ttf-unhinted`);
 });
 
 const Dependencies = oracle("oracles::dependencies", async () => {
@@ -214,6 +227,8 @@ function flagsOfFamily(config, family) {
 		mono: config.families[family].isMono || false,
 		pwid: config.families[family].isPWID || false,
 		tnum: config.families[family].isTNUM || false,
+		ss05: config.families[family].isSS05 || false,
+		ss06: config.families[family].isSS06 || false,
 		term: config.families[family].isTerm || false
 	};
 }
