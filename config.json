@@ -1,11 +1,11 @@
 {
 	"buildOptions":{},
-	"familyOrder": ["common","ui"],
+	"familyOrder": ["basic","ui"],
 	"families": {
-		"common": {
+		"basic": {
 			"isTNUM": false,
 			"isGothic": true,
-			"latinGroup": "d73a451e62c7500f4904939a6c5af3a586a5a17f",
+			"latinGroup": "nonCJK",
 			"naming": {
 				"en_US": "Judou Sans",
 				"zh_CN": "句读黑体",
@@ -21,7 +21,7 @@
 			"isSS06": true,
 			"isPWID": true,
 			"isGothic": true,
-			"latinGroup": "d73a451e62c7500f4904939a6c5af3a586a5a17f",
+			"latinGroup": "nonCJK",
 			"naming": {
 				"en_US": "Judou Sans UI",
 				"zh_CN": "句读黑体 UI",
@@ -49,32 +49,32 @@
 		"heavyitalic"
 	],
 	"latinGroups": {
-		"d73a451e62c7500f4904939a6c5af3a586a5a17f": {
+		"nonCJK": {
 			"isCff": false,
 			"styleToFileSuffixMap": {
-				"extralight": "UltraLight",
-				"extralightitalic": "UltraLightItalic",
+				"extralight": "ExtraLight",
+				"extralightitalic": "ExtraLightItalic",
 				"light": "Light",
 				"lightitalic": "LightItalic",
-				"semilight": "Book",
-				"semilightitalic": "BookItalic",
+				"semilight": "SemiLight",
+				"semilightitalic": "SemiLightItalic",
 				"regular": "Regular",
 				"italic": "Italic",
 				"medium": "Medium",
 				"mediumitalic": "MediumItalic",
 				"bold": "Bold",
 				"bolditalic": "BoldItalic",
-				"heavy": "ExtraBold",
-				"heavyitalic": "ExtraBoldItalic"
+				"heavy": "Black",
+				"heavyitalic": "BlackItalic"
 			}
 		}
 	},
 	"styles": {
 		"extralight": {
-			"name": "Extralight"
+			"name": "ExtraLight"
 		},
 		"extralightitalic": {
-			"name": "Extralight Italic",
+			"name": "ExtraLight Italic",
 			"uprightStyleMap": "extralight"
 		},
 		"light": {
@@ -85,10 +85,10 @@
 			"uprightStyleMap": "light"
 		},
 		"semilight": {
-			"name": "Semilight"
+			"name": "SemiLight"
 		},
 		"semilightitalic": {
-			"name": "Semilight Italic",
+			"name": "SemiLight Italic",
 			"uprightStyleMap": "semilight"
 		},
 		"regular": {
