@@ -1,7 +1,7 @@
 # 句讀黑體
 句读黑体 / 𛆘𛋥𛋚𛋒 / Judou Sans / Judou ゴシック / Judou 고딕
 
-**句讀黑體**，支援多種語言文字的商用免費開源黑體，基於[更紗黑體](https://github.com/be5invis/Sarasa-Gothic)、[思源黑體](https://github.com/adobe-fonts/source-han-sans)、[尙古黑體](https://github.com/GuiWonder/SourceHanToClassic)、[Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu)、[KhaWa Sans](https://github.com/Keedizhang/UmeSansBeta) 和 [FiraGO](https://github.com/bBoxType/FiraGO)。
+**句讀黑體**，基於思源黑體和 FiraGO 等字型，支援多種語言文字的商用免費開源黑體。
 
 ## 支持的文字
 
@@ -89,3 +89,16 @@ npm run build super-ttc
 這些檔案將會儲存在 `out/.super-ttc` 目錄。
 
 請注意，由於各地字型組合的數量巨大，您將需要*大量*的記憶體來構建 TTC 格式字型檔案。
+
+## 鳴謝
+
+本字型基於以下字型：
+
+- [更紗黑體](https://github.com/be5invis/Sarasa-Gothic)（構建字型）
+- [思源黑體](https://github.com/adobe-fonts/source-han-sans)（CJK 部分）
+- [尙古黑體](https://github.com/GuiWonder/SourceHanToClassic)（`Hant` 版本 CJK 部分）
+- [FiraGO](https://github.com/bBoxType/FiraGO)（西文、國際音標、阿拉伯文、天城文、喬治亞文、希伯來文、泰文）
+- [Noto Traditional Nushu](https://github.com/notofonts/nushu)（女書）
+- [KhaWa Sans](https://github.com/Keedizhang/UmeSansBeta)（藏文）
+- [Iosevka](https://github.com/be5invis/Iosevka)（傳統資訊處理技術符號）
+- [Weather Icons](https://github.com/erikflowers/weather-icons)（私用區天氣圖示）

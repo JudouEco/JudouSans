@@ -1,7 +1,7 @@
 # Judou Sans
 句读黑体 / 句讀黑體 / 𛆘𛋥𛋚𛋒 / Judou ゴシック / Judou 고딕
 
-**Judou Sans** is a multilingual open-source typeface based on [Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic), [Source Han Sans](https://github.com/adobe-fonts/source-han-sans), [Advocate Ancient Sans](https://github.com/GuiWonder/SourceHanToClassic), [Noto Traditional Nushu](https://github.com/notofonts/NotoTraditionalNushu), [KhaWa Sans](https://github.com/Keedizhang/UmeSansBeta) and [FiraGO](https://github.com/bBoxType/FiraGO).
+**Judou Sans**, a multilingual open-source typeface based on Source Han Sans, FiraGO and more.
 
 ## Script support
 
@@ -89,3 +89,16 @@ npm run build super-ttc
 instead, the files would be in `out/.super-ttc` directory.
 
 Please note that you will need *a lot of* memory to create TTCs, due to the huge quantity of subfamily-orthography combinations.
+
+## Thanks to
+
+Judou Sans is based on
+
+- [Sarasa Gothic](https://github.com/be5invis/Sarasa-Gothic) (for building the typeface)
+- [Source Han Sans](https://github.com/adobe-fonts/source-han-sans) (for CJK)
+- [Advocate Ancient Sans](https://github.com/GuiWonder/SourceHanToClassic) (for CJK in the `Hant` version)
+- [FiraGO](https://github.com/bBoxType/FiraGO) (for LGC, IPA, Arabic, Devanagari, Georgian, Hebrew and Thai)
+- [Noto Traditional Nushu](https://github.com/notofonts/nushu) (for Nüshu)
+- [KhaWa Sans](https://github.com/Keedizhang/UmeSansBeta) (for Tibetan)
+- [Iosevka](https://github.com/be5invis/Iosevka) (for glyphs from Symbols for Legacy Computing)
+- [Weather Icons](https://github.com/erikflowers/weather-icons) (for weather icons in PUA)

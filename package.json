@@ -1,6 +1,6 @@
 {
   "name": "judou-sans",
-  "version": "1.26 beta 8",
+  "version": "1.26",
   "main": "./run",
   "scripts": {
     "build": "verda -f verdafile.mjs",
