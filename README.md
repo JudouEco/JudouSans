@@ -105,3 +105,7 @@ npm run build super-ttc
 - [KhaWa Sans](https://github.com/Keedizhang/UmeSansBeta)（藏文）
 - [Iosevka](https://github.com/be5invis/Iosevka)（传统信息处理技术符号）
 - [Weather Icons](https://github.com/erikflowers/weather-icons)（私用区天气图标）
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg)](https://starchart.cc/JudouEco/JudouSans)
