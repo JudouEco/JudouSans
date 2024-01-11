@@ -107,5 +107,4 @@ npm run build super-ttc
 - [Weather Icons](https://github.com/erikflowers/weather-icons)（私用区天气图标）
 
 ## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg)](https://starchart.cc/JudouEco/JudouSans)
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?variant=adaptive)](https://starchart.cc/JudouEco/JudouSans)
