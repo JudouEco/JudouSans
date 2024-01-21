@@ -25,7 +25,7 @@ const OTC2OTF = `otc2otf`;
 
 const TTC_BUNDLE = [
 	NODEJS,
-	`--max-old-space-size=32768`,
+	`--max-old-space-size=30000`,
 	`node_modules/otb-ttc-bundle/bin/otb-ttc-bundle`
 ];
 const Chlorophytum = [NODEJS, `node_modules/@chlorophytum/cli/bin/_startup`];
