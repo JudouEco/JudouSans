@@ -45,11 +45,13 @@ async function pass(argv) {
 
 	// Bake tnum for UI
 	if (argv.tnum) bakeFeature("tnum", main, c => c != 0x2d);
+	if (argv.ss05) bakeFeature("ss05", main, c => c != 0x2d);
+	if (argv.ss06) bakeFeature("ss06", main, c => c != 0x2d);
 
 	if (argv.italize) {
-		italize(as, +9.4);
-		italize(ws, +9.4);
-		italize(feMisc, +9.4);
+		italize(as, +6.0);
+		italize(ws, +6.0);
+		italize(feMisc, +6.0);
 	}
 
 	CliProc.mergeFonts(main, ws, Ot.ListGlyphStoreFactory);

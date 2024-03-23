@@ -12,7 +12,7 @@ const { run, node, rm, cd, mv, cp } = build.actions;
 const { FileList } = build.predefinedFuncs;
 
 // Directories
-const PREFIX = `Sarasa`;
+const PREFIX = `JudouSans`;
 const BUILD = `.build`;
 const OUT = `out`;
 const SOURCES = `sources`;
@@ -25,7 +25,7 @@ const OTC2OTF = `otc2otf`;
 
 const TTC_BUNDLE = [
 	NODEJS,
-	`--max-old-space-size=16384`,
+	`--max-old-space-size=32768`,
 	`node_modules/otb-ttc-bundle/bin/otb-ttc-bundle`
 ];
 const Chlorophytum = [NODEJS, `node_modules/@chlorophytum/cli/bin/_startup`];
@@ -85,6 +85,19 @@ const Ttc = phony(`ttc`, async t => {
 
 const Ttf = phony(`ttf`, async t => {
 	await t.need(TtfFontFiles`TTF`, TtfFontFiles`TTF-Unhinted`);
+});
+
+const SuperTtcU = phony(`super-ttc-u`, async target => {
+	await target.need(SuperTtcFile`TTC-Unhinted`);
+});
+
+const TtcU = phony(`ttc-u`, async t => {
+	await t.need(TtfFontFiles`TTF-Unhinted`);
+	await t.need(TtcFontFiles`TTC-Unhinted`);
+});
+
+const TtfU = phony(`ttf-u`, async t => {
+	await t.need(TtfFontFiles`TTF-Unhinted`);
 });
 
 const Dependencies = oracle("oracles::dependencies", async () => {
@@ -258,6 +271,8 @@ function flagsOfFamily(config, family) {
 		mono: config.families[family].isMono || false,
 		pwid: config.families[family].isPWID || false,
 		tnum: config.families[family].isTNUM || false,
+		ss05: config.families[family].isSS05 || false,
+		ss06: config.families[family].isSS06 || false,
 		term: config.families[family].isTerm || false
 	};
 }

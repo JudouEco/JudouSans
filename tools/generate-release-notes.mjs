@@ -109,5 +109,5 @@ function downloadItem(label, prefix, format, version, zip) {
 	return `[${label}](${normalLink}) ([Unhinted](${unhintedLink}))`;
 }
 function pkgLink(version, baseName, format) {
-	return `https://github.com/be5invis/Sarasa-Gothic/releases/download/v${version}/${baseName}.${format}`;
+	return `https://github.com/JudouEco/JudouSans/releases/download/v${version}/${baseName}.${format}`;
 }

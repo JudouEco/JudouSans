@@ -14,8 +14,8 @@ export default (async function makeFont(argv) {
 	addTrivialGdef(hangul);
 
 	if (argv.italize) {
-		italize(kanji, 9.4);
-		italize(hangul, 9.4);
+		italize(kanji, 6.0);
+		italize(hangul, 6.0);
 	}
 
 	CliProc.mergeFonts(main, hangul, Ot.ListGlyphStoreFactory);
