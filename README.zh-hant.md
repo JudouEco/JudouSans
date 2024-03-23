@@ -34,7 +34,7 @@
 
 ## 構建字型
 
-您需要安裝 [Node.js](https://nodejs.org/) （12 版以及更新）、[AFDKO](http://www.adobe.com/devnet/opentype/afdko.html) 以及 [ttfautohint](https://www.freetype.org/ttfautohint)，然後在終端輸入
+您需要安裝 [Node.js](https://nodejs.org/) （20 版以及更新）、[AFDKO](http://www.adobe.com/devnet/opentype/afdko.html) 以及 [ttfautohint](https://www.freetype.org/ttfautohint)，然後在終端輸入
 
 ```bash
 npm install

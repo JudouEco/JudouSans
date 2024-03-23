@@ -37,7 +37,7 @@
 
 ## 构建字体
 
-您需要安装 [Node.js](https://nodejs.org/) （12 版以及更新）、[AFDKO](http://www.adobe.com/devnet/opentype/afdko.html) 以及 [ttfautohint](https://www.freetype.org/ttfautohint)，然后在终端输入
+您需要安装 [Node.js](https://nodejs.org/) （20 版以及更新）、[AFDKO](http://www.adobe.com/devnet/opentype/afdko.html) 以及 [ttfautohint](https://www.freetype.org/ttfautohint)，然后在终端输入
 
 ```bash
 npm install
