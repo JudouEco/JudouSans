@@ -102,3 +102,6 @@ Judou Sans is based on
 - [KhaWa Sans](https://github.com/Keedizhang/UmeSansBeta) (for Tibetan)
 - [Iosevka](https://github.com/be5invis/Iosevka) (for glyphs from Symbols for Legacy Computing)
 - [Weather Icons](https://github.com/erikflowers/weather-icons) (for weather icons in PUA)
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?variant=adaptive)](https://starchart.cc/JudouEco/JudouSans)

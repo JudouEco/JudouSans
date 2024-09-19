@@ -1,8 +1,7 @@
 # 句读黑体
 𛆘𛋥𛋚𛋒 / 句讀黑體 / Judou Sans / Judou ゴシック / Judou 고딕
 
-[繁體中文](./README.zh-hant.md)
-[English](./README.en.md)
+[繁體中文](./README.zh-hant.md) | [English](./README.en.md)
 
 **句读黑体**，基于思源黑体和 FiraGO 等字体，支持多种语言文字的商用免费开源黑体。
 
@@ -106,5 +105,5 @@ npm run build super-ttc
 - [Iosevka](https://github.com/be5invis/Iosevka)（传统信息处理技术符号）
 - [Weather Icons](https://github.com/erikflowers/weather-icons)（私用区天气图标）
 
-## Stargazers over time
+## Star 折线图
 [![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?variant=adaptive)](https://starchart.cc/JudouEco/JudouSans)
