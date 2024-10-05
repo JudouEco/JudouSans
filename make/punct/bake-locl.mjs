@@ -5,19 +5,16 @@ export function bakeLocalization(font, flags) {
 
 	let langTag = "JAN ";
 	switch (flags.region) {
-		case "J":
+		case "Jpan":
 			langTag = "JAN ";
 			break;
-		case "K":
+		case "Kore":
 			langTag = "KOR ";
 			break;
-		case "SC":
+		case "Hans":
 			langTag = "ZHS ";
 			break;
-		case "TC":
-			langTag = "ZHT ";
-			break;
-		case "HC":
+		case "Hant":
 			langTag = "ZHH ";
 			break;
 	}

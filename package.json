@@ -1,6 +1,6 @@
 {
-	"name": "sarasa-gothic",
-	"version": "1.0.21",
+	"name": "judou-sans",
+	"version": "1.5",
 	"main": "./run",
 	"scripts": {
 		"lint": "eslint",
