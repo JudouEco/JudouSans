@@ -26,14 +26,14 @@
 ## 字体名称解读
 
 - 按照风格划分
-  - `句读黑体`: 使用占 1 个汉字宽的引号（`“` `”`）、双层 `g`、开放字怀 `4` 和不等宽数字
-  - `句读黑体 UI`: 使用占半个汉字宽的引号（`“` `”`）、单层 `g`、封闭字怀 `4` 和等宽数字
+  - `句读黑体`: 使用双层 `g`、开放字怀 `4` 和比例数字（proportional figures），`Hans` 与 `Hant` 版本中引号（`“` `”`）占 1 个汉字宽；
+  - `句读黑体 UI`: 使用单层 `g`、封闭字怀 `4` 和表格数字（tabular figures），`Hans` 与 `Hant` 版本中引号（`“` `”`）占 0.5 个汉字宽。
   
 - 按照字形划分
-  - `Hans`: 国标字形
-  - `Hant`: 传承字形
-  - `Jpan`: 日本字形
-  - `Kore`: 韩国字形
+  - `Hans`: 国标字形；
+  - `Hant`: 传承字形；
+  - `Jpan`: 日本字形；
+  - `Kore`: 韩国字形。
 
 ## 构建字体
 
@@ -98,8 +98,8 @@ npm run build super-ttc
 本字体基于以下字体：
 
 - [更纱黑体](https://github.com/be5invis/Sarasa-Gothic)（构建字体）
-- [思源黑体](https://github.com/adobe-fonts/source-han-sans)（CJK 部分）
-- [尙古黑体](https://github.com/GuiWonder/SourceHanToClassic)（`Hant` 版本 CJK 部分）
+- [思源黑体](https://github.com/adobe-fonts/source-han-sans)（`Hans`、`Jpan`、`Kore` 的 CJK 部分）
+- [尙古黑体 TC](https://github.com/GuiWonder/SourceHanToClassic)（`Hant` 版本 CJK 部分）
 - [FiraGO](https://github.com/bBoxType/FiraGO)（西文、国际音标、阿拉伯文、天城文、格鲁吉亚文、希伯来文、泰文）
 - [Noto Traditional Nushu](https://github.com/notofonts/nushu)（女书）
 - [KhaWa Sans](https://github.com/Keedizhang/UmeSansBeta)（藏文）

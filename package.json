@@ -1,6 +1,6 @@
 {
 	"name": "judou-sans",
-	"version": "1.5",
+	"version": "1.51",
 	"main": "./run",
 	"scripts": {
 		"lint": "eslint",

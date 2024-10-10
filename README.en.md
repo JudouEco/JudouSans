@@ -23,14 +23,14 @@
 ## What are the names?
 
 - Style dimension
-  - `Judou Sans`: Quotes (`“` `”`) are full width, with the double-storey `g`, the open-top variant `4` and proportional figures
-  - `Judou Sans UI`: Quotes (`“` `”`) are narrow, with the single-storey `g`, the closed-top variant `4` and tabular figures
+  - `Judou Sans`: Quotes (`“` `”`) in `Hans` & `Hant` variants are full width, with the double-storey `g`, the open-top variant `4` and proportional figures；
+  - `Judou Sans UI`: Quotes (`“` `”`) in `Hans` & `Hant` variants are narrow, with the single-storey `g`, the closed-top variant `4` and tabular figures.
 
 - Orthography dimension
-  - `Hans`: Chinese GB orthography
-  - `Hant`: Chinese Inherited orthography
-  - `Jpan`: Japanese orthography
-  - `Kore`: Korean orthography
+  - `Hans`: Chinese GB orthography;
+  - `Hant`: Chinese Inherited orthography;
+  - `Jpan`: Japanese orthography;
+  - `Kore`: Korean orthography.
 
 ## To build
 
