@@ -3,6 +3,7 @@
 	"familyOrder": ["Sans", "SansUi"],
 	"families": {
 		"Sans": {
+			"isGothic": true,
 			"latinGroup": "nonCJK",
 			"naming": {
 				"en_US": "Judou Sans",
