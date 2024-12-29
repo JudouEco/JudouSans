@@ -2,7 +2,7 @@
 > 最近，包括《句读黑体》在内的很多商用免费字体被淘宝商家倒卖，请勿购入。
 
 # 句读黑体
-𛆘𛋥𛋚𛋒 / 句讀黑體 / Judou Sans / Judou ゴシック / Judou 고딕
+𛆘𛋧𛋚𛋒 / 句讀黑體 / Judou Sans / Judou ゴシック / Judou 고딕
 
 [繁體中文](./README.zh-hant.md)
 [English](./README.en.md)

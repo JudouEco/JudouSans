@@ -1,5 +1,5 @@
 # 句讀黑體
-句读黑体 / 𛆘𛋥𛋚𛋒 / Judou Sans / Judou ゴシック / Judou 고딕
+句读黑体 / 𛆘𛋧𛋚𛋒 / Judou Sans / Judou ゴシック / Judou 고딕
 
 **句讀黑體**，基於思源黑體和 FiraGO 等字型，商用免費的多文種混排字型。
 

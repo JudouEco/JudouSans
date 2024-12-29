@@ -1,5 +1,5 @@
 # Judou Sans
-句读黑体 / 句讀黑體 / 𛆘𛋥𛋚𛋒 / Judou ゴシック / Judou 고딕
+句读黑体 / 句讀黑體 / 𛆘𛋧𛋚𛋒 / Judou ゴシック / Judou 고딕
 
 **Judou Sans**, a multilingual open-source typeface based on Source Han Sans, FiraGO and more.
 
