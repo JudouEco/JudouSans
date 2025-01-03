@@ -1,5 +1,5 @@
 > [!CAUTION]
-> 最近，包括《句读黑体》在内的很多商用免费字体被淘宝商家倒卖，请勿购入。
+> 最近，包括本字体在内的众多商用免费字体被部分电商平台商家倒卖，该行为严重违反了[《SIL 开放字体许可证 (OFL)》1.1 版](https://openfontlicense.org/open-font-license-official-text/)“许可与条件 (PERMISSION & CONDITIONS)”第 1 条，**请勿购入**！否则，您所支付的钱财将不会流入字体作者手中，您也不会获得本字体的版本更新或其他支持。欢迎前往[此处](https://github.com/JudouEco/JudouSans/discussions)举报。
 
 # 句读黑体
 𛆘𛋧𛋚𛋒 / 句讀黑體 / Judou Sans / Judou ゴシック / Judou 고딕
