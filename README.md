@@ -1,5 +1,7 @@
 > [!CAUTION]
-> 最近，包括本字体在内的众多商用免费字体被部分电商平台商家倒卖，该行为严重违反了[《SIL 开放字体许可证 (OFL)》1.1 版](https://openfontlicense.org/open-font-license-official-text/)“许可与条件 (PERMISSION & CONDITIONS)”第 1 条，**请勿购入**！否则，您所支付的钱财将不会流入字体作者手中，您也不会获得本字体的版本更新或其他支持。欢迎前往[此处](https://github.com/JudouEco/JudouSans/discussions)举报。
+> 近期，包括本字体在内的众多开源字体被部分电商平台商家倒卖，该行为严重违反了[《SIL 开放字体许可证 (OFL)》1.1 版](https://openfontlicense.org/open-font-license-official-text/)许可与条件 (PERMISSION & CONDITIONS) 第一条“字体软件或其任何单独组件的原始版本或修改版本均不得单独出售 (Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself)”。
+> 如您遇到商家倒卖本字体，**请勿购入**！如果购入，**请找商家退款**！否则，您所支付的钱财将**不会**流入任何参与字体制作的人手中，您也**不会**获得本字体的版本更新或其他支持。
+> 欢迎前往 [Discussions](https://github.com/JudouEco/JudouSans/discussions) 举报。
 
 # 句读黑体
 𛆘𛋧𛋚𛋒 / 句讀黑體 / Judou Sans / Judou ゴシック / Judou 고딕
@@ -7,7 +9,7 @@
 [繁體中文](./README.zh-hant.md)
 [English](./README.en.md)
 
-**句读黑体**，基于思源黑体和 FiraGO 等字体，商用免费的多文种混排字体。
+**句读黑体**，基于思源黑体和 FiraGO 等字体，开源的多文种混排字体。
 
 ## 支持的文字
 
@@ -110,4 +112,4 @@ npm run build super-ttc
 - [Weather Icons](https://github.com/erikflowers/weather-icons)（私用区天气图标）
 
 ## Stargazers over time
-[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?variant=adaptive)](https://starchart.cc/JudouEco/JudouSans)
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?background=%232ca8ef&axis=%23ffffff&line=%23ffffff)](https://starchart.cc/JudouEco/JudouSans)
