@@ -53,4 +53,4 @@ export const filterUnicodeRange = function (a, fn) {
 export const isEnclosedAlphanumerics = c =>
 	(c >= 0x20dd && c <= 0x20de) || (c >= 0x2460 && c <= 0x24ff) || (c >= 0x2776 && c <= 0x2788);
 
-export const isPua = c => (c >= 0xe000 && c <= 0xefff) || (c >= 0xf531 && c <= 0xf8ff);
+export const isPua = c => (c >= 0xe000 && c <= 0xe2ff) || (c >= 0xf506 && c <= 0xf8ff);

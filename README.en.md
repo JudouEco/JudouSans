@@ -23,8 +23,8 @@
 ## What are the names?
 
 - Style dimension
-  - `Judou Sans`: Quotes (`“` `”`) are full width, with the double-storey `g`, the open-top variant `4` and proportional figures
-  - `Judou Sans UI`: Quotes (`“` `”`) are narrow, with the single-storey `g`, the closed-top variant `4` and tabular figures
+  - `Judou Sans`: Using the double-storey `g`, the open-top variant `4` and proportional figures
+  - `Judou Sans UI`: Using the single-storey `g`, the closed-top variant `4` and tabular figures
 
 - Orthography dimension
   - `Hans`: Chinese GB orthography
@@ -99,6 +99,6 @@ Judou Sans is based on
 - [Advocate Ancient Sans](https://github.com/GuiWonder/SourceHanToClassic) (for CJK in the `Hant` version)
 - [FiraGO](https://github.com/bBoxType/FiraGO) (for LGC, IPA, Arabic, Devanagari, Georgian, Hebrew and Thai)
 - [Noto Traditional Nushu](https://github.com/notofonts/nushu) (for Nüshu)
-- [KhaWa Sans](https://github.com/Keedizhang/UmeSansBeta) (for Tibetan)
+- [KhaWa Betsugs Sans](https://github.com/Keedizhang/UmeSansBeta) (for Tibetan)
 - [Iosevka](https://github.com/be5invis/Iosevka) (for glyphs from Symbols for Legacy Computing)
 - [Weather Icons](https://github.com/erikflowers/weather-icons) (for weather icons in PUA)

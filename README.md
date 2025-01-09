@@ -31,8 +31,8 @@
 ## 字体名称解读
 
 - 按照风格划分
-  - `句读黑体`: 使用占 1 个汉字宽的引号（`“` `”`）、双层 `g`、开放字怀 `4` 和不等宽数字
-  - `句读黑体 UI`: 使用占半个汉字宽的引号（`“` `”`）、单层 `g`、封闭字怀 `4` 和等宽数字
+  - `句读黑体`: 使用双层 `g`、开放字怀 `4` 和不等宽数字
+  - `句读黑体 UI`: 使用单层 `g`、封闭字怀 `4` 和等宽数字
   
 - 按照字形划分
   - `Hans`: 国标字形
@@ -107,7 +107,7 @@ npm run build super-ttc
 - [尙古黑体](https://github.com/GuiWonder/SourceHanToClassic)（`Hant` 版本 CJK 部分）
 - [FiraGO](https://github.com/bBoxType/FiraGO)（西文、国际音标、阿拉伯文、天城文、格鲁吉亚文、希伯来文、泰文）
 - [Noto Traditional Nushu](https://github.com/notofonts/nushu)（女书）
-- [KhaWa Sans](https://github.com/Keedizhang/UmeSansBeta)（藏文）
+- [卡瓦柏簇无衬线体](https://github.com/Keedizhang/UmeSansBeta)（藏文）
 - [Iosevka](https://github.com/be5invis/Iosevka)（传统信息处理技术符号）
 - [Weather Icons](https://github.com/erikflowers/weather-icons)（私用区天气图标）
 

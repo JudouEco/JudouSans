@@ -23,8 +23,8 @@
 ## 字型名稱解讀
 
 - 按照風格劃分
-  - `句讀黑體`: 使用佔 1 個漢字寬的引號（`“` `”`）、雙層 `g`、開放字懷 `4` 和不等寬數字
-  - `句讀黑體 UI`: 使用佔半個漢字寬的引號（`“` `”`）、單層 `g`、封閉字懷 `4` 和等寬數字
+  - `句讀黑體`: 使用雙層 `g`、開放字懷 `4` 和不等寬數字
+  - `句讀黑體 UI`: 使用單層 `g`、封閉字懷 `4` 和等寬數字
 
 - 按照字形劃分
   - `Hans`: 國標字形
@@ -99,6 +99,6 @@ npm run build super-ttc
 - [尙古黑體](https://github.com/GuiWonder/SourceHanToClassic)（`Hant` 版本 CJK 部分）
 - [FiraGO](https://github.com/bBoxType/FiraGO)（西文、國際音標、阿拉伯文、天城文、喬治亞文、希伯來文、泰文）
 - [Noto Traditional Nushu](https://github.com/notofonts/nushu)（女書）
-- [KhaWa Sans](https://github.com/Keedizhang/UmeSansBeta)（藏文）
+- [卡瓦柏簇無襯線體](https://github.com/Keedizhang/UmeSansBeta)（藏文）
 - [Iosevka](https://github.com/be5invis/Iosevka)（傳統資訊處理技術符號）
 - [Weather Icons](https://github.com/erikflowers/weather-icons)（私用區天氣圖示）
