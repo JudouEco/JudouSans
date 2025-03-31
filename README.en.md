@@ -101,3 +101,7 @@ Judou Sans is based on
 - [Noto Traditional Nushu](https://github.com/notofonts/nushu) (for Nüshu)
 - [KhaWa Betsugs Sans](https://github.com/Keedizhang/UmeSansBeta) (for Tibetan)
 - [Iosevka](https://github.com/be5invis/Iosevka) (for glyphs from Symbols for Legacy Computing)
+
+                        
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?variant=adaptive)](https://starchart.cc/JudouEco/JudouSans)

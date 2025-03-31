@@ -101,3 +101,6 @@ npm run build super-ttc
 - [Noto Traditional Nushu](https://github.com/notofonts/nushu)（女書）
 - [卡瓦柏簇無襯綫體](https://github.com/Keedizhang/UmeSansBeta)（藏文）
 - [Iosevka](https://github.com/be5invis/Iosevka)（傳統資訊處理技術符號）
+
+## 摘星記錄
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?variant=adaptive)](https://starchart.cc/JudouEco/JudouSans)
