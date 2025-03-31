@@ -10,8 +10,8 @@
 				"zh_CN": "句读黑体",
 				"zh_TW": "句讀黑體",
 				"zh_HK": "句讀黑體",
-				"ja_JP": "Judou ゴシック",
-				"ko_KR": "Judou 고딕"
+				"ja_JP": "句読ゴシック",
+				"ko_KR": "구두 고딕"
 			}
 		},
 		"SansUi": {
@@ -25,8 +25,8 @@
 				"zh_CN": "句读黑体 UI",
 				"zh_TW": "句讀黑體 UI",
 				"zh_HK": "句讀黑體 UI",
-				"ja_JP": "Judou ゴシック UI",
-				"ko_KR": "Judou 고딕 UI"
+				"ja_JP": "句読ゴシック UI",
+				"ko_KR": "구두 고딕 UI"
 			}
 		}
 	},

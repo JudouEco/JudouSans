@@ -1,5 +1,5 @@
 # Judou Sans
-句读黑体 / 句讀黑體 / 𛆘𛋧𛋚𛋒 / Judou ゴシック / Judou 고딕
+句读黑体 / 句讀黑體 / 𛆘𛋧𛋚𛋒 / 句読ゴシック / 구두 고딕
 
 **Judou Sans**, a multilingual open-source typeface based on Source Han Sans, FiraGO and more.
 
@@ -101,4 +101,3 @@ Judou Sans is based on
 - [Noto Traditional Nushu](https://github.com/notofonts/nushu) (for Nüshu)
 - [KhaWa Betsugs Sans](https://github.com/Keedizhang/UmeSansBeta) (for Tibetan)
 - [Iosevka](https://github.com/be5invis/Iosevka) (for glyphs from Symbols for Legacy Computing)
-- [Weather Icons](https://github.com/erikflowers/weather-icons) (for weather icons in PUA)

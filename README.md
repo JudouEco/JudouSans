@@ -1,10 +1,8 @@
 > [!CAUTION]
-> 近期，包括本字体在内的众多开源字体被部分电商平台商家倒卖，该行为严重违反了[《SIL 开放字体许可证 (OFL)》1.1 版](https://openfontlicense.org/open-font-license-official-text/)许可与条件 (PERMISSION & CONDITIONS) 第一条“字体软件或其任何单独组件的原始版本或修改版本均不得单独出售 (Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself)”。
-> 如您遇到商家倒卖本字体，**请勿购入**！如果购入，**请找商家退款**！否则，您所支付的钱财将**不会**流入任何参与字体制作的人手中，您也**不会**获得本字体的版本更新或其他支持。
-> 欢迎前往 [Discussions](https://github.com/JudouEco/JudouSans/discussions) 举报。
+> 近期，包括本字体在内的众多商用免费字体被部分电商平台商家倒卖，该行为**严重违反**了 [SIL OFL 1.1](https://openfontlicense.org/open-font-license-official-text/) 中对字体售卖行为的限制条款。如您遇到商家倒卖本字体，**请勿购入**，否则，您所支付的钱财将**不会**流入任何参与字体制作的人手中，您也**不会**获得本字体的版本更新或其他支持。欢迎前往 [Discussions](https://github.com/JudouEco/JudouSans/discussions) 举报。
 
 # 句读黑体
-𛆘𛋧𛋚𛋒 / 句讀黑體 / Judou Sans / Judou ゴシック / Judou 고딕
+𛆘𛋧𛋚𛋒 / 句讀黑體 / Judou Sans / 句読ゴシック / 구두 고딕
 
 [繁體中文](./README.zh-hant.md)
 [English](./README.en.md)
@@ -78,7 +76,7 @@ npm run build super-ttc-u
 npm run build ttf
 ```
 
-这些文件将会保存在 `out/ttf` 目录。顺带一提，构建包含字体微调技术的字体文件需要**很长**时间。
+这些文件将会保存在 `out/ttf` 目录。构建包含字体微调技术的字体文件需要**很长**时间。
 
 如果想构建**包含**字体微调技术的 TTC 格式字体文件，请输入
 
@@ -109,7 +107,6 @@ npm run build super-ttc
 - [Noto Traditional Nushu](https://github.com/notofonts/nushu)（女书）
 - [卡瓦柏簇无衬线体](https://github.com/Keedizhang/UmeSansBeta)（藏文）
 - [Iosevka](https://github.com/be5invis/Iosevka)（传统信息处理技术符号）
-- [Weather Icons](https://github.com/erikflowers/weather-icons)（私用区天气图标）
 
 ## Stargazers over time
 [![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?background=%232ca8ef&axis=%23ffffff&line=%23ffffff)](https://starchart.cc/JudouEco/JudouSans)

@@ -1,5 +1,5 @@
 # 句讀黑體
-句读黑体 / 𛆘𛋧𛋚𛋒 / Judou Sans / Judou ゴシック / Judou 고딕
+句读黑体 / 𛆘𛋧𛋚𛋒 / Judou Sans / 句読ゴシック / 구두 고딕
 
 **句讀黑體**，基於思源黑體和 FiraGO 等字型，開源的多文種混排字型。
 
@@ -70,7 +70,7 @@ npm run build super-ttc-u
 npm run build ttf
 ```
 
-這些檔案將會儲存在 `out/ttf` 目錄。順帶一提，構建包含字型微調技術的字型檔案需要**很長**時間。
+這些檔案將會儲存在 `out/ttf` 目錄。構建包含字型微調技術的字型檔案需要**很長**時間。
 
 如果想構建**包含**字型微調技術的 TTC 格式字型檔案，請輸入
 
@@ -97,8 +97,7 @@ npm run build super-ttc
 - [更紗黑體](https://github.com/be5invis/Sarasa-Gothic)（構建字型）
 - [思源黑體](https://github.com/adobe-fonts/source-han-sans)（CJK 部分）
 - [尙古黑體](https://github.com/GuiWonder/SourceHanToClassic)（`Hant` 版本 CJK 部分）
-- [FiraGO](https://github.com/bBoxType/FiraGO)（西文、國際音標、阿拉伯文、天城文、喬治亞文、希伯來文、泰文）
+- [FiraGO](https://github.com/bBoxType/FiraGO)（西文、國際音標、阿拉伯文、天城文、格魯吉亞文、希伯來文、泰文）
 - [Noto Traditional Nushu](https://github.com/notofonts/nushu)（女書）
-- [卡瓦柏簇無襯線體](https://github.com/Keedizhang/UmeSansBeta)（藏文）
+- [卡瓦柏簇無襯綫體](https://github.com/Keedizhang/UmeSansBeta)（藏文）
 - [Iosevka](https://github.com/be5invis/Iosevka)（傳統資訊處理技術符號）
-- [Weather Icons](https://github.com/erikflowers/weather-icons)（私用區天氣圖示）
