@@ -110,4 +110,4 @@ npm run build super-ttc
 
                         
 ## 摘星记录
-[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?variant=adaptive)](https://starchart.cc/JudouEco/JudouSans)
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?background=%231a5796&axis=%23ffffff&line=%23b5e5fb)](https://starchart.cc/JudouEco/JudouSans)

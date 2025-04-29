@@ -104,4 +104,4 @@ Judou Sans is based on
 
                         
 ## Stargazers over time
-[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?variant=adaptive)](https://starchart.cc/JudouEco/JudouSans)
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?background=%231a5796&axis=%23ffffff&line=%23b5e5fb)](https://starchart.cc/JudouEco/JudouSans)
