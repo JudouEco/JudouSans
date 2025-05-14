@@ -3,7 +3,6 @@ build/
 .build/
 node_modules/
 references/
-doc/
 out/
 preview/test-fonts
 .typeSXS_public
