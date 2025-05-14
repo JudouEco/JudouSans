@@ -1,11 +1,8 @@
-> [!CAUTION]
-> 近期，包括本字体在内的众多商用免费字体被部分电商平台商家倒卖，该行为**严重违反**了 [SIL OFL 1.1](https://openfontlicense.org/open-font-license-official-text/) 中对字体售卖行为的限制条款。如您遇到商家倒卖本字体，**请勿购入**，否则，您所支付的钱财将**不会**流入任何参与字体制作的人手中，您也**不会**获得本字体的版本更新或其他支持。欢迎前往 [Discussions](https://github.com/JudouEco/JudouSans/discussions) 举报。
-
 # 句读黑体
 𛆘𛋧𛋚𛋒 / 句讀黑體 / Judou Sans / 句読ゴシック / 구두 고딕
 
-[繁體中文](./README.zh-hant.md)
-[English](./README.en.md)
+[繁體中文](./doc/README.zh-hant.md)
+[English](./doc/README.en.md)
 
 **句读黑体**，基于思源黑体和 FiraGO 等字体，开源的多文种混排字体。
 
