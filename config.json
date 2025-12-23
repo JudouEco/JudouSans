@@ -112,12 +112,12 @@
 	"os2encodings": {
 		"Hans": {
 			"gbk": true,
-			"big5": false,
+			"big5": true,
 			"jis": false,
 			"korean": false
 		},
 		"Hant": {
-			"gbk": false,
+			"gbk": true,
 			"big5": true,
 			"jis": false,
 			"korean": false
