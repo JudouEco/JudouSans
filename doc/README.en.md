@@ -102,6 +102,5 @@ Judou Sans is based on
 - [KhaWa Betsugs Sans](https://github.com/Keedizhang/UmeSansBeta) (for Tibetan)
 - [Iosevka](https://github.com/be5invis/Iosevka) (for glyphs from Symbols for Legacy Computing)
 
-                        
 ## Stargazers over time
-[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?background=%232e4a60&axis=%23e3f0ff&line=%23c4dbed)](https://starchart.cc/JudouEco/JudouSans)
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?background=%23242424&axis=%23cccccc&line=%238ec5e9)](https://starchart.cc/JudouEco/JudouSans)

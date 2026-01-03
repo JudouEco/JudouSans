@@ -105,6 +105,5 @@ npm run build super-ttc
 - [卡瓦柏簇无衬线体](https://github.com/Keedizhang/UmeSansBeta)（藏文）
 - [Iosevka](https://github.com/be5invis/Iosevka)（传统信息处理技术符号）
 
-                        
 ## 摘星记录
-[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?background=%232e4a60&axis=%23e3f0ff&line=%23c4dbed)](https://starchart.cc/JudouEco/JudouSans)
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?background=%23242424&axis=%23cccccc&line=%238ec5e9)](https://starchart.cc/JudouEco/JudouSans)

@@ -103,4 +103,4 @@ npm run build super-ttc
 - [Iosevka](https://github.com/be5invis/Iosevka)（傳統資訊處理技術符號）
 
 ## 摘星記錄
-[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?background=%232e4a60&axis=%23e3f0ff&line=%23c4dbed)](https://starchart.cc/JudouEco/JudouSans)
+[![Stargazers over time](https://starchart.cc/JudouEco/JudouSans.svg?background=%23242424&axis=%23cccccc&line=%238ec5e9)](https://starchart.cc/JudouEco/JudouSans)
