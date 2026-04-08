@@ -1,9 +1,9 @@
 {
 	"buildOptions": {},
-	"familyOrder": ["Sans", "SansUi"],
+	"familyOrder": ["Sans", "SE"],
 	"families": {
 		"Sans": {
-			"isGothic": true,
+			"isPWID": true,
 			"latinGroup": "JudouSansNonCJK",
 			"naming": {
 				"en_US": "Judou Sans",
@@ -14,19 +14,19 @@
 				"ko_KR": "구두 고딕"
 			}
 		},
-		"SansUi": {
-			"isPWID": true,
+		"SE": {
+			"isGothic": true,
 			"isTNUM": true,
 			"isSS05": true,
 			"isSS06": true,
 			"latinGroup": "JudouSansNonCJK",
 			"naming": {
-				"en_US": "Judou Sans UI",
-				"zh_CN": "句读黑体 UI",
-				"zh_TW": "句讀黑體 UI",
-				"zh_HK": "句讀黑體 UI",
-				"ja_JP": "句読ゴシック UI",
-				"ko_KR": "구두 고딕 UI"
+				"en_US": "Judou Sans SE",
+				"zh_CN": "句读黑体 SE",
+				"zh_TW": "句讀黑體 SE",
+				"zh_HK": "句讀黑體 SE",
+				"ja_JP": "句読ゴシック SE",
+				"ko_KR": "구두 고딕 SE"
 			}
 		}
 	},
@@ -141,7 +141,7 @@
 		"Jpan": ["en_US", "ja_JP", "zh_CN", "zh_HK", "zh_TW", "ko_KR"],
 		"Kore": ["en_US", "ko_KR", "zh_CN", "zh_HK", "zh_TW", "ja_JP"]
 	},
-	"copyright": "Copyright 2017-2025 JudouEco. Portions Copyright 2015-2024 Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright © 2014-2025 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. Portions digitized data copyright 2012–2018 for FiraGO, bBox Type GmbH and HERE Europe B.V. All rights reserved, with Reserved Font Name 'Fira'. Portions digitized data copyright 2012–2018 for Fira Sans The Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH, with Reserved Font Name 'Fira'. Portions Copyright 2019-2022 Google LLC. All Rights Reserved. Portions Copyright (c) 2024, Kedi Zhang, with Reserved Font Name <KhaWa Betsugs Sans>, <ཁ་བའི་སྤྲོས་མེད་དཔེ་ཚུགས།> and <卡瓦柏簇无衬线体>. This Font Software is licensed under the SIL Open Font License, Version 1.1.",
+	"copyright": "Copyright 2017-2026 JudouEco. Portions Copyright 2015-2024 Renzhi Li (aka. Belleve Invis, belleve@typeof.net). Portions Copyright © 2014-2025 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name 'Source'. Portions digitized data copyright 2012–2018 for FiraGO, bBox Type GmbH and HERE Europe B.V. All rights reserved, with Reserved Font Name 'Fira'. Portions digitized data copyright 2012–2018 for Fira Sans The Mozilla Foundation, Telefonica S.A., Carrois Corporate GbR and bBox Type GmbH, with Reserved Font Name 'Fira'. Portions Copyright 2019-2022 Google LLC. All Rights Reserved. Portions Copyright (c) 2024, Kedi Zhang, with Reserved Font Name <KhaWa Betsugs Sans>, <ཁ་བའི་སྤྲོས་མེད་དཔེ་ཚུགས།> and <卡瓦柏簇无衬线体>. This Font Software is licensed under the SIL Open Font License, Version 1.1.",
 	"shsSourceMap": {
 		"defaultRegion": "SourceHanSans",
 		"region": {

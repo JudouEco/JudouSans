@@ -23,8 +23,8 @@
 ## What are the names?
 
 - Style dimension
-  - `Judou Sans`: Using the double-storey `g`, the open-top variant `4` and proportional figures
-  - `Judou Sans UI`: Using the single-storey `g`, the closed-top variant `4` and tabular figures
+  - `Judou Sans`: Using proportional quotes, the double-storey `g`, the open-top variant `4` and proportional figures
+  - `Judou Sans SE`: Using fullwidth quotes, the single-storey `g`, the closed-top variant `4` and tabular figures
 
 - Orthography dimension
   - `Hans`: Chinese GB orthography
